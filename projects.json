@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ps5upload",
+    "name": "ps5upload",
+    "base": "https://github.com/phantomptr/ps5upload",
+    "repo": "phantomptr/ps5upload",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Networking & Servers",
+    "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)"
+  },
+  {
+    "id": "ps5-web-file-manager",
+    "name": "ps5-web-file-manager",
+    "base": "https://github.com/owendswang/ps5-web-file-manager",
+    "repo": "owendswang/ps5-web-file-manager",
+    "host": "github",
+    "asset_pattern": "web-file-mgr-.*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "A file manager for PS5 with a web UI"
+  },
+  {
+    "id": "garlic-savemgr",
+    "name": "garlic-savemgr",
+    "base": "https://git.etawen.dev/earthonion/garlic-savemgr",
+    "repo": "earthonion/garlic-savemgr",
+    "host": "forgejo",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "PS5 save decrypt/encrypt/browse with embedded web UI."
+  },
+  {
+    "id": "shadowmountplus",
+    "name": "ShadowMountPlus",
+    "base": "https://github.com/drakmor/ShadowMountPlus",
+    "repo": "drakmor/ShadowMountPlus",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles."
+  },
+  {
+    "id": "elfldr",
+    "name": "elfldr",
+    "base": "https://github.com/ps5-payload-dev/elfldr",
+    "repo": "ps5-payload-dev/elfldr",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Loaders",
+    "description": "An ELF loader for jailbroken PS5s that accepts payloads on port 9021"
+  },
+  {
+    "id": "pldmgr",
+    "name": "pldmgr",
+    "base": "https://github.com/itsPLK/ps5-payload-manager",
+    "repo": "itsPLK/ps5-payload-manager",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5."
+  },
+  {
+    "id": "ps5-exporter",
+    "name": "ps5-exporter",
+    "base": "https://github.com/Marice/ps5-exporter",
+    "repo": "Marice/ps5-exporter",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "Prometheus exporter for a jailbroken PS5"
+  },
+  {
+    "id": "onionhen",
+    "name": "onionHEN",
+    "base": "https://github.com/aydencharles/onionHEN",
+    "repo": "aydencharles/onionHEN",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "System & Jailbreak",
+    "description": "A homebrew enabler and Toolbox for jailbroken PS5 consoles, built on etaHEN"
+  },
+  {
+    "id": "ps-patch-system",
+    "name": "ps-patch-system",
+    "base": "https://github.com/illusionyy/ps-patch-system",
+    "repo": "illusionyy/ps-patch-system",
+    "host": "github",
+    "asset_pattern": "patch-bundle-loader-prospero\\.elf",
+    "category": "Utilities & Tools",
+    "description": "App patching system"
+  },
+  {
+    "id": "pkg-manager",
+    "name": "PKG-Manager",
+    "base": "https://github.com/itsPLK/ps5-pkg-manager",
+    "repo": "itsPLK/ps5-pkg-manager",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "Browse and install PKGs from USB, disc, or SMB shares directly on your PS5"
+  },
+  {
+    "id": "cheatrunner",
+    "name": "CheatRunner",
+    "base": "https://github.com/notmaj0r/CheatRunner",
+    "repo": "notmaj0r/CheatRunner",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "Web-based game cheat trainer"
+  },
+  {
+    "id": "webkit-autoloader-installer",
+    "name": "WebKit-Autoloader-Installer",
+    "base": "https://github.com/itsPLK/ps5-webkit-autoloader",
+    "repo": "itsPLK/ps5-webkit-autoloader",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Loaders",
+    "description": "Installs WebKit Autoloader on homescreen (FW 7.00-13.60)"
+  },
+  {
+    "id": "ps5-app-dumper",
+    "name": "ps5-app-dumper",
+    "base": "https://github.com/EchoStretch/ps5-app-dumper",
+    "repo": "EchoStretch/ps5-app-dumper",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "A small utility to dump PS5 application files from the console's pfsmnt to a connected USB storage device."
+  },
+  {
+    "id": "zftpd",
+    "name": "zftpd",
+    "base": "https://github.com/seregonwar/zftpd",
+    "repo": "seregonwar/zftpd",
+    "host": "github",
+    "asset_pattern": "zftpd-ps5-v.*\\.elf",
+    "category": "Networking & Servers",
+    "description": "Zero-copy FTP/HTTP Server"
+  },
+  {
+    "id": "ps5debug-ng",
+    "name": "ps5debug-NG",
+    "base": "https://github.com/Pharaoh2k/ps5debug-NG",
+    "repo": "Pharaoh2k/ps5debug-NG",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "PS5 debugger payload - userland TCP wire-protocol server hosted inside SceShellCore."
+  },
+  {
+    "id": "kstuff-lite",
+    "name": "kstuff-lite",
+    "base": "https://github.com/EchoStretch/kstuff-lite",
+    "repo": "EchoStretch/kstuff-lite",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "System & Jailbreak",
+    "description": "Lite version of kstuff"
+  },
+  {
+    "id": "ftpsrv-drakmor",
+    "name": "ftpsrv-drakmor",
+    "base": "https://github.com/drakmor/ftpsrv",
+    "repo": "drakmor/ftpsrv",
+    "host": "github",
+    "asset_pattern": "ftpsrv-ps5\\.elf",
+    "category": "Networking & Servers",
+    "description": "drakmor's fork of ftpsrv"
+  },
+  {
+    "id": "ps5-linux-loader",
+    "name": "ps5-linux-loader",
+    "base": "https://github.com/ps5-linux/ps5-linux-loader",
+    "repo": "ps5-linux/ps5-linux-loader",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Loaders",
+    "description": "Linux payload implementing HV exploits to run a custom bootloader"
+  },
+  {
+    "id": "ps5-date-time-sync",
+    "name": "ps5-date-time-sync",
+    "base": "https://github.com/kerrdec97/ps5-date-time-sync",
+    "repo": "kerrdec97/ps5-date-time-sync",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "Automatically restores the system date and time using public NTP servers"
+  },
+  {
+    "id": "ftpsrv",
+    "name": "ftpsrv",
+    "base": "https://github.com/ps5-payload-dev/ftpsrv",
+    "repo": "ps5-payload-dev/ftpsrv",
+    "host": "github",
+    "asset_pattern": "ftpsrv-ps5\\.elf",
+    "category": "Networking & Servers",
+    "description": "A simple FTP server that accepts connections on port 2121"
+  },
+  {
+    "id": "bfpilot",
+    "name": "BFpilot",
+    "base": "https://github.com/ItsBlurf/BFpilot",
+    "repo": "ItsBlurf/BFpilot",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "Lightweight PS5 file manager, browser based"
+  },
+  {
+    "id": "nanodns",
+    "name": "nanoDNS",
+    "base": "https://github.com/drakmor/nanoDNS",
+    "repo": "drakmor/nanoDNS",
+    "host": "github",
+    "asset_pattern": "nanodns\\.elf",
+    "category": "Networking & Servers",
+    "description": "Local DNS proxy server"
+  },
+  {
+    "id": "websrv",
+    "name": "websrv",
+    "base": "https://github.com/ps5-payload-dev/websrv",
+    "repo": "ps5-payload-dev/websrv",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Networking & Servers",
+    "description": "A simple web server that accepts connections on port 8080"
+  },
+  {
+    "id": "shsrv",
+    "name": "shsrv",
+    "base": "https://github.com/ps5-payload-dev/shsrv",
+    "repo": "ps5-payload-dev/shsrv",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Networking & Servers",
+    "description": "A simple telnet-like shell server for jailbroken PS5s that accepts connections on port 2323"
+  },
+  {
+    "id": "klogsrv",
+    "name": "klogsrv",
+    "base": "https://github.com/ps5-payload-dev/klogsrv",
+    "repo": "ps5-payload-dev/klogsrv",
+    "host": "github",
+    "asset_pattern": "klogsrv-ps5\\.elf",
+    "category": "Networking & Servers",
+    "description": "A simple socket server that redirects /dev/klog to sockets connected on port 3232"
+  },
+  {
+    "id": "lapy-jb-daemon",
+    "name": "Lapy-JB-Daemon",
+    "base": "https://github.com/itsPLK/PS5-Lapy-JB-Daemon",
+    "repo": "itsPLK/PS5-Lapy-JB-Daemon",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "System & Jailbreak",
+    "description": "Standalone homebrew jailbreak daemon for PS5. Mimics etaHEN's jailbreak-on-demand API."
+  },
+  {
+    "id": "backpork",
+    "name": "BackPork",
+    "base": "https://github.com/BestPig/BackPork",
+    "repo": "BestPig/BackPork",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "Lets you sideload system libraries into PS5 games"
+  },
+  {
+    "id": "etahen",
+    "name": "etaHEN",
+    "base": "https://github.com/etaHEN/etaHEN",
+    "repo": "etaHEN/etaHEN",
+    "host": "github",
+    "asset_pattern": "etaHEN.*\\.bin",
+    "category": "System & Jailbreak",
+    "description": "AIO HEN payload"
+  },
+  {
+    "id": "orbit-store-ps5",
+    "name": "orbit-store-ps5",
+    "base": "https://github.com/saawant12/orbit-store-ps5",
+    "repo": "saawant12/orbit-store-ps5",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "orbit-store-ps5"
+  },
+  {
+    "id": "neoenabler",
+    "name": "NeoEnabler",
+    "base": "https://github.com/gasb07/NeoEnabler",
+    "repo": "gasb07/NeoEnabler",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "NeoEnabler"
+  },
+  {
+    "id": "ps5-dump-forge",
+    "name": "ps5-dump-forge",
+    "base": "https://github.com/quer3q/ps5-dump-forge",
+    "repo": "quer3q/ps5-dump-forge",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "ps5-dump-forge"
+  },
+  {
+    "id": "prosperomgr",
+    "name": "ProsperoMgr",
+    "base": "https://github.com/notmaj0r/ProsperoMgr",
+    "repo": "notmaj0r/ProsperoMgr",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "ProsperoMgr"
+  },
+  {
+    "id": "hearbridge-ps5",
+    "name": "HearBridge-PS5",
+    "base": "https://github.com/X-F1REBALL-X/HearBridge-PS5",
+    "repo": "X-F1REBALL-X/HearBridge-PS5",
+    "host": "github",
+    "asset_pattern": ".*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "HearBridge-PS5 (pre-release / beta)"
+  }
+]
