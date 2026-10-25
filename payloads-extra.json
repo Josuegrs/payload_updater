@@ -617,6 +617,20 @@
       "description": "In-memory cone or circle deadzone filter for DualSense sticks on PS5 firmware 13.60",
       "checksum": "569984f2b22da5f6bb2a266ce166fde5a83a77f1765cf72e8e86764ccea1dc04",
       "icon_key": "ps5-dualsense-deadzone-1360"
+    },
+    {
+      "id": "tabshifter",
+      "name": "PS5 TabShifter",
+      "filename": "TabShifter.elf",
+      "url": "https://github.com/xvvulcanvx/PS5-TabShifter/releases/download/v1.3.0/TabShifter.elf",
+      "source": "https://github.com/xvvulcanvx/PS5-TabShifter/releases",
+      "source_direct": "https://github.com/xvvulcanvx/PS5-TabShifter/releases/download/v1.3.0/TabShifter.elf",
+      "version": "v1.3.0",
+      "last_update": "2026-10-24",
+      "category": "Utilities & Tools",
+      "description": "Move apps between Games and Media tabs and hide unwanted offline PSN tiles",
+      "checksum": "5d2d9c46c2390df05c5a85781b033aa9471584629e8bd69b91608cb3e60f45b4",
+      "icon_key": "tabshifter"
     }
   ]
 }
