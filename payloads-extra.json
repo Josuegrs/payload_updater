@@ -589,6 +589,20 @@
       "description": "Animated backgrounds for the PS5 home screen",
       "checksum": "3c546a3cc85ded2435f822be12f925a284ac25a2aef757c777d6139dad36b624",
       "icon_key": "liveshell"
+    },
+    {
+      "id": "playtime",
+      "name": "PlayTime",
+      "filename": "PlayTime-v1.0.0.elf",
+      "url": "https://github.com/ghost1372/PlayTime/releases/download/v1.0.0/PlayTime-v1.0.0.elf",
+      "source": "https://github.com/ghost1372/PlayTime/releases",
+      "source_direct": "https://github.com/ghost1372/PlayTime/releases/download/v1.0.0/PlayTime-v1.0.0.elf",
+      "version": "v1.0.0",
+      "last_update": "2026-10-23",
+      "category": "Utilities & Tools",
+      "description": "Web dashboard for viewing and editing PS5 game play time",
+      "checksum": "69cc6df2296c9a1fe5f9099700f362e99ca56c5da38496c0b27ceab2beb4d4d5",
+      "icon_key": "playtime"
     }
   ]
 }

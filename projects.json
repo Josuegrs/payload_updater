@@ -418,5 +418,15 @@
     "asset_pattern": "liveshell\\.elf",
     "category": "Utilities & Tools",
     "description": "Animated backgrounds for the PS5 home screen"
+  },
+  {
+    "id": "playtime",
+    "name": "PlayTime",
+    "base": "https://github.com/ghost1372/PlayTime",
+    "repo": "ghost1372/PlayTime",
+    "host": "github",
+    "asset_pattern": "PlayTime-.*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "Web dashboard for viewing and editing PS5 game play time"
   }
 ]
