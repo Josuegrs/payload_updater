@@ -1,0 +1,38 @@
+name: Update payload catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: payload-catalog
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Actualizar catálogo
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python update_payloads.py
+
+      - name: Guardar cambios
+        run: |
+          if ! git diff --quiet -- payloads-extra.json; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add payloads-extra.json
+            git commit -m 'Actualizar versiones de payloads'
+            git push
+          fi
