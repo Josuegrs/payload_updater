@@ -2,8 +2,6 @@ name: Update payload catalog
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '17,47 * * * *'
 
 permissions:
   contents: write
