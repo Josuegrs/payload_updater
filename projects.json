@@ -408,5 +408,15 @@
     "asset_pattern": "elf-arsenal\\.elf",
     "category": "Utilities & Tools",
     "description": "All-in-one utility for PS5 payload management and system tools"
+  },
+  {
+    "id": "liveshell",
+    "name": "LiveShell",
+    "base": "https://github.com/ZiZc3/LiveShell",
+    "repo": "ZiZc3/LiveShell",
+    "host": "github",
+    "asset_pattern": "liveshell\\.elf",
+    "category": "Utilities & Tools",
+    "description": "Animated backgrounds for the PS5 home screen"
   }
 ]

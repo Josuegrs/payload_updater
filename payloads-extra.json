@@ -575,6 +575,20 @@
       "description": "All-in-one utility for PS5 payload management and system tools",
       "checksum": "cec800889364e4e8a4586989f27a1e31717b3b384683386b88deef9c78bc50dd",
       "icon_key": "elf-arsenal"
+    },
+    {
+      "id": "liveshell",
+      "name": "LiveShell",
+      "filename": "liveshell.elf",
+      "url": "https://github.com/ZiZc3/LiveShell/releases/download/v1.5.2/liveshell.elf",
+      "source": "https://github.com/ZiZc3/LiveShell/releases",
+      "source_direct": "https://github.com/ZiZc3/LiveShell/releases/download/v1.5.2/liveshell.elf",
+      "version": "v1.5.2",
+      "last_update": "2026-10-24",
+      "category": "Utilities & Tools",
+      "description": "Animated backgrounds for the PS5 home screen",
+      "checksum": "3c546a3cc85ded2435f822be12f925a284ac25a2aef757c777d6139dad36b624",
+      "icon_key": "liveshell"
     }
   ]
 }
