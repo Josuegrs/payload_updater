@@ -378,5 +378,15 @@
     "asset_pattern": "HyperHEN-.*\\.elf",
     "category": "System & Jailbreak",
     "description": "An all-in-one HEN and Toolbox for PlayStation 5"
+  },
+  {
+    "id": "omnipad-ps5",
+    "name": "OmniPad PS5",
+    "base": "https://github.com/diegobarbosaa/OmniPad-PS5",
+    "repo": "diegobarbosaa/OmniPad-PS5",
+    "host": "github",
+    "asset_pattern": "OmniPad-PS5-.*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "Universal controller engine and web dashboard for PlayStation 5"
   }
 ]
