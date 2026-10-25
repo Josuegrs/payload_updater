@@ -428,5 +428,15 @@
     "asset_pattern": "PlayTime-.*\\.elf",
     "category": "Utilities & Tools",
     "description": "Web dashboard for viewing and editing PS5 game play time"
+  },
+  {
+    "id": "ps5-dualsense-deadzone-1360",
+    "name": "PS5 DualSense Deadzone (13.60)",
+    "base": "https://github.com/fvaha/ps5-dualsense-deadzone-13.60",
+    "repo": "fvaha/ps5-dualsense-deadzone-13.60",
+    "host": "github",
+    "asset_pattern": "ps5-dualsense-deadzone\\.elf",
+    "category": "Utilities & Tools",
+    "description": "In-memory cone or circle deadzone filter for DualSense sticks on PS5 firmware 13.60"
   }
 ]
