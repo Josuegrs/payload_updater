@@ -368,5 +368,15 @@
     "asset_pattern": "ps5-library\\.elf",
     "category": "Utilities & Tools",
     "description": "Biblioteca con interfaz web y acceso desde la pantalla de inicio."
+  },
+  {
+    "id": "hyperhen",
+    "name": "HyperHEN",
+    "base": "https://github.com/Michele-M-Media/HYPERHEN",
+    "repo": "Michele-M-Media/HYPERHEN",
+    "host": "github",
+    "asset_pattern": "HyperHEN-.*\\.elf",
+    "category": "System & Jailbreak",
+    "description": "An all-in-one HEN and Toolbox for PlayStation 5"
   }
 ]

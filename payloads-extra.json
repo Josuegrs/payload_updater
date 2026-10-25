@@ -474,7 +474,7 @@
       "version": "v0.1.1-beta",
       "last_update": "2026-10-10",
       "category": "Utilities & Tools",
-      "description": "Galería para ver y descargar capturas y videos desde el navegador. (pre-release / beta)",
+      "description": "GalerÃ­a para ver y descargar capturas y videos desde el navegador. (pre-release / beta)",
       "checksum": "eb2c690d3360d75f324cb2f4e9de4860a715a4ab95c4e9998a8c977741304736",
       "icon_key": "prosperogallery"
     },
@@ -519,6 +519,20 @@
       "description": "Biblioteca con interfaz web y acceso desde la pantalla de inicio.",
       "checksum": "d3e5b913833941cf36392e3ad056aca788edda093bce9be0b60be105d549e5ad",
       "icon_key": "ps5-library"
+    },
+    {
+      "id": "hyperhen",
+      "name": "HyperHEN",
+      "filename": "HyperHEN-v0.9.2.elf",
+      "url": "https://github.com/Michele-M-Media/HYPERHEN/releases/download/HYPERHEN_V0_9_2/HyperHEN-v0.9.2.elf",
+      "source": "https://github.com/Michele-M-Media/HYPERHEN/releases",
+      "source_direct": "https://github.com/Michele-M-Media/HYPERHEN/releases/download/HYPERHEN_V0_9_2/HyperHEN-v0.9.2.elf",
+      "version": "HYPERHEN_V0_9_2",
+      "last_update": "2026-10-14",
+      "category": "System & Jailbreak",
+      "description": "An all-in-one HEN and Toolbox for PlayStation 5",
+      "checksum": "c35b8f6dbe4355be7e55891e6b326d82f3d6aae8483f6cf0e27d372b0aea97ae",
+      "icon_key": "hyperhen"
     }
   ]
 }
