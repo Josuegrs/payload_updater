@@ -61,7 +61,7 @@ def build(fetch=get_json, hash_asset=asset_hash):
             (' (pre-release / beta)' if release.get('prerelease') else ''), checksum=hash_asset(asset)))
     for item in items:
         item['icon_key'] = item['id']
-    return dict(name='PS5 Completo — Josué', icons_url='icons.json', payloads=items)
+    return dict(name='PS5 Payload Catalog', icons_url='icons.json', payloads=items)
 
 if __name__ == '__main__':
     result = build()

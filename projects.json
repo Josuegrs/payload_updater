@@ -328,5 +328,45 @@
     "asset_pattern": ".*\\.elf",
     "category": "Utilities & Tools",
     "description": "HearBridge-PS5 (pre-release / beta)"
+  },
+  {
+    "id": "prosperogallery",
+    "name": "ProsperoGallery",
+    "base": "https://github.com/AmineWallah/ProsperoGallery",
+    "repo": "AmineWallah/ProsperoGallery",
+    "host": "github",
+    "asset_pattern": "prospero-gallery\\.elf",
+    "category": "Utilities & Tools",
+    "description": "Galería para ver y descargar capturas y videos desde el navegador."
+  },
+  {
+    "id": "ps5-signal",
+    "name": "ps5-signal",
+    "base": "https://github.com/Marice/ps5-signal",
+    "repo": "Marice/ps5-signal",
+    "host": "github",
+    "asset_pattern": "ps5-signal\\.elf",
+    "category": "Utilities & Tools",
+    "description": "Control de luces LED y secuencias de pitidos de la consola."
+  },
+  {
+    "id": "ps5-tailscale",
+    "name": "PS5 Tailscale",
+    "base": "https://github.com/holdmysocks/ps5-tailscale",
+    "repo": "holdmysocks/ps5-tailscale",
+    "host": "github",
+    "asset_pattern": "tailscale-.*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "Acceso remoto a los servicios de la consola mediante Tailscale."
+  },
+  {
+    "id": "ps5-library",
+    "name": "PS5 Library",
+    "base": "https://github.com/deox1111/ps5-library",
+    "repo": "deox1111/ps5-library",
+    "host": "github",
+    "asset_pattern": "ps5-library\\.elf",
+    "category": "Utilities & Tools",
+    "description": "Biblioteca con interfaz web y acceso desde la pantalla de inicio."
   }
 ]

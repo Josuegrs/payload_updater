@@ -1,6 +1,5 @@
 {
-  "name": "PS5 Completo — Josué",
-  "icons_url": "icons.json",
+  "name": "PS5 Payload Catalog",
   "payloads": [
     {
       "id": "ps5upload",
@@ -463,6 +462,63 @@
       "description": "HearBridge-PS5 (pre-release / beta) (pre-release / beta)",
       "checksum": "7590dc52ec2876855397dd8d44396596b2c13df2a04b4f486c7c86fbeea90477",
       "icon_key": "hearbridge-ps5"
+    },
+    {
+      "id": "prosperogallery",
+      "name": "ProsperoGallery",
+      "filename": "prospero-gallery.elf",
+      "url": "https://github.com/AmineWallah/ProsperoGallery/releases/download/v0.1.1-beta/prospero-gallery.elf",
+      "source": "https://github.com/AmineWallah/ProsperoGallery/releases",
+      "source_direct": "https://github.com/AmineWallah/ProsperoGallery/releases/download/v0.1.1-beta/prospero-gallery.elf",
+      "version": "v0.1.1-beta",
+      "last_update": "2026-10-10",
+      "category": "Utilities & Tools",
+      "description": "Galería para ver y descargar capturas y videos desde el navegador. (pre-release / beta)",
+      "checksum": "eb2c690d3360d75f324cb2f4e9de4860a715a4ab95c4e9998a8c977741304736",
+      "icon_key": "prosperogallery"
+    },
+    {
+      "id": "ps5-signal",
+      "name": "ps5-signal",
+      "filename": "ps5-signal.elf",
+      "url": "https://github.com/Marice/ps5-signal/releases/download/v0.2.1/ps5-signal.elf",
+      "source": "https://github.com/Marice/ps5-signal/releases",
+      "source_direct": "https://github.com/Marice/ps5-signal/releases/download/v0.2.1/ps5-signal.elf",
+      "version": "v0.2.1",
+      "last_update": "2026-10-19",
+      "category": "Utilities & Tools",
+      "description": "Control de luces LED y secuencias de pitidos de la consola.",
+      "checksum": "823d0f602b010dd137104f8ccfb08334688b48a8299782c8346dc1ce00620786",
+      "icon_key": "ps5-signal"
+    },
+    {
+      "id": "ps5-tailscale",
+      "name": "PS5 Tailscale",
+      "filename": "tailscale-0.7.1.elf",
+      "url": "https://github.com/holdmysocks/ps5-tailscale/releases/download/v0.7.1/tailscale-0.7.1.elf",
+      "source": "https://github.com/holdmysocks/ps5-tailscale/releases",
+      "source_direct": "https://github.com/holdmysocks/ps5-tailscale/releases/download/v0.7.1/tailscale-0.7.1.elf",
+      "version": "v0.7.1",
+      "last_update": "2026-10-06",
+      "category": "Utilities & Tools",
+      "description": "Acceso remoto a los servicios de la consola mediante Tailscale.",
+      "checksum": "af320493c8e2fc3443b8f42496ac11aa3db77b112e95777706d835eccd304cb9",
+      "icon_key": "ps5-tailscale"
+    },
+    {
+      "id": "ps5-library",
+      "name": "PS5 Library",
+      "filename": "ps5-library.elf",
+      "url": "https://github.com/deox1111/ps5-library/releases/download/v0.7.38/ps5-library.elf",
+      "source": "https://github.com/deox1111/ps5-library/releases",
+      "source_direct": "https://github.com/deox1111/ps5-library/releases/download/v0.7.38/ps5-library.elf",
+      "version": "v0.7.38",
+      "last_update": "2026-10-23",
+      "category": "Utilities & Tools",
+      "description": "Biblioteca con interfaz web y acceso desde la pantalla de inicio.",
+      "checksum": "efa72fbb34984961678cb88dc8336ffdb8308c7011d8d8fb0e00b1a57ace16f3",
+      "icon_key": "ps5-library"
     }
-  ]
+  ],
+  "icons_url": "icons.json"
 }
