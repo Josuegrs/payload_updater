@@ -1,5 +1,6 @@
 {
-  "name": "PS5 Completo",
+  "name": "PS5 Completo — Josué",
+  "icons_url": "icons.json",
   "payloads": [
     {
       "id": "ps5upload",
@@ -463,6 +464,5 @@
       "checksum": "7590dc52ec2876855397dd8d44396596b2c13df2a04b4f486c7c86fbeea90477",
       "icon_key": "hearbridge-ps5"
     }
-  ],
-  "icons_url": "icons.json"
+  ]
 }
