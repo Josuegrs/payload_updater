@@ -22,7 +22,8 @@ This repository publishes a public PS5 Payload Manager catalog. Keep all public 
 - `.github/workflows/main.yml` runs hourly and supports manual dispatch. It runs `update_payloads.py` and stages only `payloads-extra.json` for its automated commit.
 - The workflow uses the `payload-catalog` concurrency group to serialize workflow runs, then rebases its generated commit on `origin/main` before pushing. It does not serialize against a developer's local edits or push.
 - Avoid concurrent edits to `payloads-extra.json` while the workflow is running. Changes to `projects.json`, `update_payloads.py`, or `icons.json` should be pushed before starting a catalog workflow run, so its checkout and generated output use the intended definitions. If a rebase or push fails, reconcile against the latest `main`, regenerate, and review the complete diff before retrying.
-- Before changing the workflow or generated files, inspect `git status` and the branch/upstream state. Preserve unrelated local work. Never commit or push unless the user explicitly asks.
+- Before changing the workflow or generated files, inspect `git status` and the branch/upstream state. Preserve unrelated local work.
+- After completing a requested change and passing its relevant checks, if the user's request mentions the word `push`, commit and push the task's changes to `origin main`. Include only changes belonging to that task; leave unrelated local changes untouched. Integrate remote changes before pushing, and never use force push.
 
 ## Validation expectations
 
