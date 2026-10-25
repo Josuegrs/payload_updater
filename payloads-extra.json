@@ -1,5 +1,6 @@
 {
   "name": "PS5 Payload Catalog",
+  "icons_url": "icons.json",
   "payloads": [
     {
       "id": "ps5upload",
@@ -519,6 +520,5 @@
       "checksum": "efa72fbb34984961678cb88dc8336ffdb8308c7011d8d8fb0e00b1a57ace16f3",
       "icon_key": "ps5-library"
     }
-  ],
-  "icons_url": "icons.json"
+  ]
 }
