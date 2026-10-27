@@ -458,5 +458,15 @@
     "asset_pattern": "ps4mount\\.elf",
     "category": "Utilities & Tools",
     "description": "Mount PS4 PKG games from USB drives on jailbroken PS5 consoles"
+  },
+  {
+    "id": "hush",
+    "name": "Hush",
+    "base": "https://github.com/disco-trooper/hush",
+    "repo": "disco-trooper/hush",
+    "host": "github",
+    "asset_pattern": "hush\\.elf",
+    "category": "Utilities & Tools",
+    "description": "Turns off the PS5's continuous recent-gameplay recording"
   }
 ]

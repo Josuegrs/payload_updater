@@ -474,7 +474,7 @@
       "version": "v0.1.1-beta",
       "last_update": "2026-10-10",
       "category": "Utilities & Tools",
-      "description": "Galería para ver y descargar capturas y videos desde el navegador. (pre-release / beta)",
+      "description": "GalerÃ­a para ver y descargar capturas y videos desde el navegador. (pre-release / beta)",
       "checksum": "eb2c690d3360d75f324cb2f4e9de4860a715a4ab95c4e9998a8c977741304736",
       "icon_key": "prosperogallery"
     },
@@ -645,6 +645,20 @@
       "description": "Mount PS4 PKG games from USB drives on jailbroken PS5 consoles",
       "checksum": "9a99fdeb2be8ebee823b14636e0aac5721386feabcfe97e27dc6d5b3e4158bb7",
       "icon_key": "ps4mount"
+    },
+    {
+      "id": "hush",
+      "name": "Hush",
+      "filename": "hush.elf",
+      "url": "https://github.com/disco-trooper/hush/releases/download/v1.0.0/hush.elf",
+      "source": "https://github.com/disco-trooper/hush/releases",
+      "source_direct": "https://github.com/disco-trooper/hush/releases/download/v1.0.0/hush.elf",
+      "version": "v1.0.0",
+      "last_update": "2026-10-25",
+      "category": "Utilities & Tools",
+      "description": "Turns off the PS5's continuous recent-gameplay recording",
+      "checksum": "5c98dd0881b64eb00e90d58d90056a66193ef8ee50e2d9906a1e298b5a34c352",
+      "icon_key": "hush"
     }
   ]
 }
