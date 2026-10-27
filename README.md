@@ -1,22 +1,22 @@
 # PS5 Payload Catalog
 
-Catálogo público de payloads para **PS5 Payload Manager**. Incluye 44 proyectos, sus enlaces de descarga y sus iconos.
+Public payload catalog for **PS5 Payload Manager**. It includes 44 projects, their download links, and their icons.
 
-## Archivos
+## Files
 
-- [`payloads-extra.json`](payloads-extra.json): catálogo para importar en PS5 Payload Manager.
-- [`icons.json`](icons.json): iconos de los proyectos.
-- [`projects.json`](projects.json): lista de proyectos incluidos.
-- [`update_payloads.py`](update_payloads.py): actualiza el catálogo desde las releases oficiales.
+- [`payloads-extra.json`](payloads-extra.json): catalog to import into PS5 Payload Manager.
+- [`icons.json`](icons.json): project icons.
+- [`projects.json`](projects.json): list of included projects.
+- [`update_payloads.py`](update_payloads.py): updates the catalog from official releases.
 
-## Actualización
+## Updating
 
-GitHub Actions actualiza el catálogo automáticamente cada hora. También se puede ejecutar manualmente desde la pestaña **Actions**.
+GitHub Actions updates the catalog automatically every hour. You can also run it manually from the **Actions** tab.
 
-Para actualizarlo localmente, necesitas Python 3.12 o posterior y conexión a Internet:
+To update it locally, you need Python 3.12 or later and an internet connection:
 
 ```bash
 python update_payloads.py
 ```
 
-El script busca la release más reciente de cada proyecto, obtiene su payload y actualiza `payloads-extra.json` con la versión, fecha, enlace y SHA-256 correspondientes.
+The script finds the latest release for each project, retrieves its payload, and updates `payloads-extra.json` with the corresponding version, date, link, and SHA-256 hash.
