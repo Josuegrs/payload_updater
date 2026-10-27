@@ -1,6 +1,6 @@
 {
   "name": "PS5 Payload Catalog",
-  "icons_url": "icons.json",
+  "icons_url": "icons.json?v=2",
   "payloads": [
     {
       "id": "ps5upload",
@@ -14,7 +14,7 @@
       "category": "Networking & Servers",
       "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
       "checksum": "2039eb340f6c09f7fce6bd726ad526adb68e9e924351b21dba74720025267481",
-      "icon_key": "e10a03806630f3cec9dd2fecca2976d6e4cc49710c9d3bdfd78410e7f371b69b"
+      "icon_key": "ps5upload"
     },
     {
       "id": "ps5-web-file-manager",
@@ -28,7 +28,7 @@
       "category": "Utilities & Tools",
       "description": "A file manager for PS5 with a web UI",
       "checksum": "f3461eb967da7afbbf0420d3294fbc8f999cc2ad53a756bed413aa80c7cfa67a",
-      "icon_key": "e5d9201e9833adfd6211ebb6511a25045163dd3025b3b617ee0b2bc2d814f60a"
+      "icon_key": "ps5-web-file-manager"
     },
     {
       "id": "garlic-savemgr",
@@ -42,7 +42,7 @@
       "category": "Utilities & Tools",
       "description": "PS5 save decrypt/encrypt/browse with embedded web UI. (pre-release / beta)",
       "checksum": "9777e49916968b5327be9d3799d25f1d3b810d3c853c448d38c8bbd120124787",
-      "icon_key": "2cc3ca2be798749bb50ba4dc2afcb00a321542352e95087aa89b0e53c9b3e2ed"
+      "icon_key": "garlic-savemgr"
     },
     {
       "id": "shadowmountplus",
@@ -56,7 +56,7 @@
       "category": "Utilities & Tools",
       "description": "A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles.",
       "checksum": "928a5a7e33d2801c1c14a5ed8ad83fcab07957ba3a5daccd382dba67d408b3e2",
-      "icon_key": "2d83b692b57d424d0165cad9be37d9e0abe47a17dca0d7c6b9c05c30c4a0ab90"
+      "icon_key": "shadowmountplus"
     },
     {
       "id": "elfldr",
@@ -70,7 +70,7 @@
       "category": "Loaders",
       "description": "An ELF loader for jailbroken PS5s that accepts payloads on port 9021",
       "checksum": "82f6227610172c98bad6efe68219fc93a10027035991f47eb4b75532d023407d",
-      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4"
+      "icon_key": "elfldr"
     },
     {
       "id": "ps5-exporter",
@@ -84,7 +84,7 @@
       "category": "Utilities & Tools",
       "description": "Prometheus exporter for a jailbroken PS5",
       "checksum": "ff0c36333ba44da20a05039f148b644225edfeeac80e7c12006f767681739862",
-      "icon_key": "6625b3ac7758d58db0a59eb72c12909b0555c05d3fa59630b89fb1448f455c43"
+      "icon_key": "ps5-exporter"
     },
     {
       "id": "onionhen",
@@ -98,7 +98,7 @@
       "category": "System & Jailbreak",
       "description": "A homebrew enabler and Toolbox for jailbroken PS5 consoles, built on etaHEN",
       "checksum": "1f1f7c883d5d998be1d95d7d80b718f85180f8156f257661b0f445a7c6b7c212",
-      "icon_key": "567438bbf1eebb8e2f6e5433d2b7a1586b3101c565f1de0519212c071b919ff7"
+      "icon_key": "onionhen"
     },
     {
       "id": "ps-patch-system",
@@ -112,7 +112,7 @@
       "category": "Utilities & Tools",
       "description": "App patching system",
       "checksum": "10d8636e1b0f07f3f046aadb5c050a24ed9b0fae3585ec29a1ecabec07035589",
-      "icon_key": "ab52d7d50f08caf2a18b0e8f001aa243ca4b81930a7576183fcb40491d9dac62"
+      "icon_key": "ps-patch-system"
     },
     {
       "id": "pkg-manager",
@@ -126,7 +126,7 @@
       "category": "Utilities & Tools",
       "description": "Browse and install PKGs from USB, disc, or SMB shares directly on your PS5",
       "checksum": "82e3548edcc41419b644482cccaef65689334fc0315dc20247f48b90bf182dca",
-      "icon_key": "a702a928ca935cac3d0e0d97d03c6d8420289b40e8fe03cae48ba2f5a9b9358e"
+      "icon_key": "pkg-manager"
     },
     {
       "id": "cheatrunner",
@@ -140,7 +140,7 @@
       "category": "Utilities & Tools",
       "description": "Web-based game cheat trainer",
       "checksum": "4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140",
-      "icon_key": "5f47bc6ff085ad58cf5263d05b84bfb24e80fdfca67c4e0fb6f21c3ee2182975"
+      "icon_key": "cheatrunner"
     },
     {
       "id": "webkit-autoloader-installer",
@@ -154,7 +154,7 @@
       "category": "Loaders",
       "description": "Installs WebKit Autoloader on homescreen (FW 7.00-13.60)",
       "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
-      "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7"
+      "icon_key": "webkit-autoloader-installer"
     },
     {
       "id": "ps5-app-dumper",
@@ -168,7 +168,7 @@
       "category": "Utilities & Tools",
       "description": "A small utility to dump PS5 application files from the console's pfsmnt to a connected USB storage device.",
       "checksum": "c850f1df6f2787824d6ddeeed69ce4144e00569b32135973401c2985cfb0345b",
-      "icon_key": "bfb17e40ad9e638c1eaae93bc8d9a336dab35fd51eaeb7251f122e0b1fd53f8b"
+      "icon_key": "ps5-app-dumper"
     },
     {
       "id": "zftpd",
@@ -182,7 +182,7 @@
       "category": "Networking & Servers",
       "description": "Zero-copy FTP/HTTP Server",
       "checksum": "39ed57bef579282418f822da2e58ea5d56acfa5aa4cd38816744b1f610bfa14d",
-      "icon_key": "378f5180450da277e05504dc9904f21a277e555fd11092e95c094a9efc905341"
+      "icon_key": "zftpd"
     },
     {
       "id": "ps5debug-ng",
@@ -196,7 +196,7 @@
       "category": "Utilities & Tools",
       "description": "PS5 debugger payload - userland TCP wire-protocol server hosted inside SceShellCore.",
       "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3",
-      "icon_key": "ee1ffc2717e49104ce95c7dacf23c748575fca5118f233c9fa761243880f8f36"
+      "icon_key": "ps5debug-ng"
     },
     {
       "id": "kstuff-lite",
@@ -210,7 +210,7 @@
       "category": "System & Jailbreak",
       "description": "Lite version of kstuff",
       "checksum": "ab9a6cb4d3b1daf139d4d646e402b1cf569071acd64599c936d7a3a6164dc779",
-      "icon_key": "bfb17e40ad9e638c1eaae93bc8d9a336dab35fd51eaeb7251f122e0b1fd53f8b"
+      "icon_key": "kstuff-lite"
     },
     {
       "id": "ftpsrv-drakmor",
@@ -224,7 +224,7 @@
       "category": "Networking & Servers",
       "description": "drakmor's fork of ftpsrv",
       "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32",
-      "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a"
+      "icon_key": "ftpsrv-drakmor"
     },
     {
       "id": "ps5-linux-loader",
@@ -238,7 +238,7 @@
       "category": "Loaders",
       "description": "Linux payload implementing HV exploits to run a custom bootloader",
       "checksum": "9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49",
-      "icon_key": "b3d73d513d62b4d6c880873e46cbea07b977c9bc03295c7e3a31e091fda7a8f7"
+      "icon_key": "ps5-linux-loader"
     },
     {
       "id": "ps5-date-time-sync",
@@ -252,7 +252,7 @@
       "category": "Utilities & Tools",
       "description": "Automatically restores the system date and time using public NTP servers",
       "checksum": "91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849",
-      "icon_key": "0dd16a96b5d67ffa328df5e08c4ca2ce78c5d5e634975930980193fb7c6174aa"
+      "icon_key": "ps5-date-time-sync"
     },
     {
       "id": "ftpsrv",
@@ -266,7 +266,7 @@
       "category": "Networking & Servers",
       "description": "A simple FTP server that accepts connections on port 2121",
       "checksum": "7d4b31c83eae4e056580482a3a074e1db25922efc74ac1e439473b45d71a5938",
-      "icon_key": "4720d3f0f446dc4e8848351d922d3fa4c0ef2fe9267f6afd6f3865f9b14605e7"
+      "icon_key": "ftpsrv"
     },
     {
       "id": "bfpilot",
@@ -280,7 +280,7 @@
       "category": "Utilities & Tools",
       "description": "Lightweight PS5 file manager, browser based (pre-release / beta)",
       "checksum": "b9226a4321de09d434579d651b9fdbb5ce0ccbe5c65f86bb2e951c324da4df9f",
-      "icon_key": "64e1b80ac257cef32e0993fee35eebb76c3fdc81a6f41878e7e55189ec284b4c"
+      "icon_key": "bfpilot"
     },
     {
       "id": "nanodns",
@@ -294,7 +294,7 @@
       "category": "Networking & Servers",
       "description": "Local DNS proxy server",
       "checksum": "fcfb7d47c3b295560ea1603dc015f7c4950353ef0faca16428bd425680ef1fc5",
-      "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a"
+      "icon_key": "nanodns"
     },
     {
       "id": "websrv",
@@ -308,7 +308,7 @@
       "category": "Networking & Servers",
       "description": "A simple web server that accepts connections on port 8080 (pre-release / beta)",
       "checksum": "25501b41887a42789792d1367edd2fc892454bfe6b0b1519bc36456a581f264c",
-      "icon_key": "071962d27a706dfa602cd64c2f5cffa9aed238574f55d35be4989e8e65ab8618"
+      "icon_key": "websrv"
     },
     {
       "id": "shsrv",
@@ -322,7 +322,7 @@
       "category": "Networking & Servers",
       "description": "A simple telnet-like shell server for jailbroken PS5s that accepts connections on port 2323",
       "checksum": "fa4ccb2587bb61be317df0d001f668b17ebf9b4aafad87acf691b1fb8da0bd2d",
-      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4"
+      "icon_key": "shsrv"
     },
     {
       "id": "klogsrv",
@@ -336,7 +336,7 @@
       "category": "Networking & Servers",
       "description": "A simple socket server that redirects /dev/klog to sockets connected on port 3232",
       "checksum": "e828ec144231f81547cb58bc7d2c396fa984be0c2295f31364b58017816dcceb",
-      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4"
+      "icon_key": "klogsrv"
     },
     {
       "id": "lapy-jb-daemon",
@@ -350,7 +350,7 @@
       "category": "System & Jailbreak",
       "description": "Standalone homebrew jailbreak daemon for PS5. Mimics etaHEN's jailbreak-on-demand API.",
       "checksum": "13559b858fc33cc7fa3dc89e10dccf139070d99ee5d378dd75c969293700799e",
-      "icon_key": "fe6104326861f61000fcb1ad3ec4c842b228b9637d05681ad351adaeb662439e"
+      "icon_key": "lapy-jb-daemon"
     },
     {
       "id": "backpork",
@@ -364,7 +364,7 @@
       "category": "Utilities & Tools",
       "description": "Lets you sideload system libraries into PS5 games",
       "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52",
-      "icon_key": "b4431c1161e6efaed2a3be0eb99564fa43ea894905737f7571b5585e0dc75bcf"
+      "icon_key": "backpork"
     },
     {
       "id": "etahen",
@@ -378,7 +378,7 @@
       "category": "System & Jailbreak",
       "description": "AIO HEN payload",
       "checksum": "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e",
-      "icon_key": "d77a32b590c042813eb8904eab3e272abc11730d0b2822f5380540d1d664fcb9"
+      "icon_key": "etahen"
     },
     {
       "id": "orbit-store-ps5",
@@ -392,7 +392,7 @@
       "category": "Utilities & Tools",
       "description": "orbit-store-ps5",
       "checksum": "ca46295969f4711096c036af5cad9925e96b24fcefc5211ed07dbe768f6f809b",
-      "icon_key": "b16cec2ba6442b4cb286e7c27c52a9e789fbd63dc24c04e221c68a4a92752792"
+      "icon_key": "orbit-store-ps5"
     },
     {
       "id": "neoenabler",
@@ -406,7 +406,7 @@
       "category": "Utilities & Tools",
       "description": "NeoEnabler",
       "checksum": "ea9342b1349ea26b55af4643bdd34308d7880bb09309b632c1dc2c8c95f7be1b",
-      "icon_key": "4fc6a2668b9226627fb446d81af37a5ff966bb657dad45546b15f213f17bb530"
+      "icon_key": "neoenabler"
     },
     {
       "id": "ps5-dump-forge",
@@ -420,7 +420,7 @@
       "category": "Utilities & Tools",
       "description": "ps5-dump-forge",
       "checksum": "00ddbaa578f0c044cf445283adc00023c57812e17e9cda324b25557c8ba40453",
-      "icon_key": "0a203f499ae7dc3300927e48b7abcaff27c384d2f01a80b7587b225687fa6b93"
+      "icon_key": "ps5-dump-forge"
     },
     {
       "id": "prosperomgr",
@@ -434,7 +434,7 @@
       "category": "Utilities & Tools",
       "description": "ProsperoMgr",
       "checksum": "e7a6bb544adb2fb2a61aa9cc83b0ad15f70b32d7511a3de0f1fb88812f11983c",
-      "icon_key": "342d46f9e76709a50039f69a0f4ec52c56033224b9e0b823bea7fab828cb94d2"
+      "icon_key": "prosperomgr"
     },
     {
       "id": "hearbridge-ps5",
@@ -448,7 +448,7 @@
       "category": "Utilities & Tools",
       "description": "HearBridge-PS5 (pre-release / beta) (pre-release / beta)",
       "checksum": "7590dc52ec2876855397dd8d44396596b2c13df2a04b4f486c7c86fbeea90477",
-      "icon_key": "584d3083a3dac882c4fd0c36e9fae06daade2386f5d25bf457c3329d4512c0ce"
+      "icon_key": "hearbridge-ps5"
     },
     {
       "id": "prosperogallery",
@@ -462,7 +462,7 @@
       "category": "Utilities & Tools",
       "description": "Galería para ver y descargar capturas y videos desde el navegador. (pre-release / beta)",
       "checksum": "eb2c690d3360d75f324cb2f4e9de4860a715a4ab95c4e9998a8c977741304736",
-      "icon_key": "c6a8a5808991fc0eff3faaef8815ce07b8fa42c6dc6b90915d5192169f431b30"
+      "icon_key": "prosperogallery"
     },
     {
       "id": "ps5-signal",
@@ -476,7 +476,7 @@
       "category": "Utilities & Tools",
       "description": "Control de luces LED y secuencias de pitidos de la consola.",
       "checksum": "823d0f602b010dd137104f8ccfb08334688b48a8299782c8346dc1ce00620786",
-      "icon_key": "24d34b607b0aeef254b7a1d8afb40801fc0f46e8781aebd4bb59ed98c7aa4de9"
+      "icon_key": "ps5-signal"
     },
     {
       "id": "ps5-tailscale",
@@ -490,7 +490,7 @@
       "category": "Utilities & Tools",
       "description": "Acceso remoto a los servicios de la consola mediante Tailscale.",
       "checksum": "af320493c8e2fc3443b8f42496ac11aa3db77b112e95777706d835eccd304cb9",
-      "icon_key": "11c13caf216dc61eee5d69357ae5e4a87c4f9a821d06172fe79367eb811c4ebb"
+      "icon_key": "ps5-tailscale"
     },
     {
       "id": "ps5-library",
@@ -504,7 +504,7 @@
       "category": "Utilities & Tools",
       "description": "Biblioteca con interfaz web y acceso desde la pantalla de inicio.",
       "checksum": "d3e5b913833941cf36392e3ad056aca788edda093bce9be0b60be105d549e5ad",
-      "icon_key": "10a66fba7a3dcbb954c4d34d8530b05229711bb99575f57548eac48472aeb4eb"
+      "icon_key": "ps5-library"
     },
     {
       "id": "hyperhen",
@@ -518,7 +518,7 @@
       "category": "System & Jailbreak",
       "description": "An all-in-one HEN and Toolbox for PlayStation 5",
       "checksum": "c35b8f6dbe4355be7e55891e6b326d82f3d6aae8483f6cf0e27d372b0aea97ae",
-      "icon_key": "41a776d22d2ca1979720c1e3eddb8442bfbf2287137c3d76fbe349389d5a6010"
+      "icon_key": "hyperhen"
     },
     {
       "id": "omnipad-ps5",
@@ -532,7 +532,7 @@
       "category": "Utilities & Tools",
       "description": "Universal controller engine and web dashboard for PlayStation 5",
       "checksum": "00677d6cfac752f1da395d2aeddfee1b5f8f3a3175c524bb0ca90afd9ea0d624",
-      "icon_key": "192e26caaf04f397e0054c7b8da62535c53b8fc97faae7f4368b31620265531f"
+      "icon_key": "omnipad-ps5"
     },
     {
       "id": "ps5-game-compressor",
@@ -546,7 +546,7 @@
       "category": "Utilities & Tools",
       "description": "Standalone PS5 payload for compressing, unpacking, validating, and repairing ShadowMountPlus-mounted games",
       "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b",
-      "icon_key": "4d3e681afba8ac7a2d6ba3b856a771980ce01df65c8af814c78d710a57847566"
+      "icon_key": "ps5-game-compressor"
     },
     {
       "id": "elf-arsenal",
@@ -560,7 +560,7 @@
       "category": "Utilities & Tools",
       "description": "All-in-one utility for PS5 payload management and system tools",
       "checksum": "cec800889364e4e8a4586989f27a1e31717b3b384683386b88deef9c78bc50dd",
-      "icon_key": "b95e72cba317da5596446a2b615700a2e44082afd7607da604adc7efbda27896"
+      "icon_key": "elf-arsenal"
     },
     {
       "id": "liveshell",
@@ -574,7 +574,7 @@
       "category": "Utilities & Tools",
       "description": "Animated backgrounds for the PS5 home screen",
       "checksum": "99335e75312d6ffcce91f6a5b659f0191ec057c744b2b3d5b899db5a88b80ac3",
-      "icon_key": "b7bd0202bd71871e2bcfac45bed7bb58b495f2034260e0423d019c2931a5dbab"
+      "icon_key": "liveshell"
     },
     {
       "id": "playtime",
@@ -588,7 +588,7 @@
       "category": "Utilities & Tools",
       "description": "Web dashboard for viewing and editing PS5 game play time",
       "checksum": "69cc6df2296c9a1fe5f9099700f362e99ca56c5da38496c0b27ceab2beb4d4d5",
-      "icon_key": "a1a0db9620eda2e2c39751e8a16ddb5c109b0dbe4451d6521c4e7690a254624a"
+      "icon_key": "playtime"
     },
     {
       "id": "ps5-dualsense-deadzone-1360",
@@ -602,7 +602,7 @@
       "category": "Utilities & Tools",
       "description": "In-memory cone or circle deadzone filter for DualSense sticks on PS5 firmware 13.60",
       "checksum": "569984f2b22da5f6bb2a266ce166fde5a83a77f1765cf72e8e86764ccea1dc04",
-      "icon_key": "e0bb769df5338c92dea616915bd8efa9e58dc88818076a8dd8e8104eea4eebe0"
+      "icon_key": "ps5-dualsense-deadzone-1360"
     },
     {
       "id": "tabshifter",
@@ -616,7 +616,7 @@
       "category": "Utilities & Tools",
       "description": "Move apps between Games and Media tabs and hide unwanted offline PSN tiles",
       "checksum": "5d2d9c46c2390df05c5a85781b033aa9471584629e8bd69b91608cb3e60f45b4",
-      "icon_key": "9be3db8e511bddbe6472bb2d0c6a7a94ba54c6568eba73a68cee03b6938a1f74"
+      "icon_key": "tabshifter"
     },
     {
       "id": "ps4mount",
@@ -630,7 +630,7 @@
       "category": "Utilities & Tools",
       "description": "Mount PS4 PKG games from USB drives on jailbroken PS5 consoles",
       "checksum": "9a99fdeb2be8ebee823b14636e0aac5721386feabcfe97e27dc6d5b3e4158bb7",
-      "icon_key": "4fc6a2668b9226627fb446d81af37a5ff966bb657dad45546b15f213f17bb530"
+      "icon_key": "ps4mount"
     },
     {
       "id": "hush",
@@ -644,7 +644,7 @@
       "category": "Utilities & Tools",
       "description": "Turns off the PS5's continuous recent-gameplay recording",
       "checksum": "5c98dd0881b64eb00e90d58d90056a66193ef8ee50e2d9906a1e298b5a34c352",
-      "icon_key": "e12214ad36d1f976653e56b09186d333c1347e8b8316e0011bc8eb638fe57345"
+      "icon_key": "hush"
     },
     {
       "id": "orbit-play-ps5",
