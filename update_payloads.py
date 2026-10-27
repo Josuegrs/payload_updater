@@ -188,7 +188,8 @@ def build(fetch=get_json, hash_asset=asset_hash, continue_on_error=False):
             item.pop('icon_key', None)
     icon_catalog_path.write_text(json.dumps({'icons': published_icons}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     report_failures(failures)
-    return dict(name='PS5 Payload Catalog', icons_url='icons.json', payloads=items)
+    # Bump the icon catalog URL to invalidate Payload Manager's separate icon cache.
+    return dict(name='PS5 Payload Catalog', icons_url='icons.json?v=2', payloads=items)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Regenerate the PS5 payload catalog.')
