@@ -6,7 +6,7 @@ from urllib.parse import urljoin
 
 ROOT = Path(__file__).resolve().parent
 OFFICIAL = 'https://itsplk.github.io/ps5-payloads-mirror/payloads_v2.json'
-DISABLED = {'orbit-store-ps5', 'playtime', 'ps5-dualsense-deadzone-1360'}
+DISABLED = {'orbit-store-ps5', 'playtime', 'ps5-dualsense-deadzone-1360', 'elf-arsenal'}
 
 def icons_url(icons):
     content = json.dumps(icons, sort_keys=True, ensure_ascii=False).encode('utf-8')

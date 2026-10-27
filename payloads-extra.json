@@ -390,7 +390,7 @@
       "version": "v1.7.0",
       "last_update": "2026-10-26",
       "category": "Utilities & Tools",
-      "description": "orbit-store-ps5",
+      "description": "Orbit Store",
       "checksum": "ca46295969f4711096c036af5cad9925e96b24fcefc5211ed07dbe768f6f809b"
     },
     {
@@ -557,8 +557,7 @@
       "last_update": "2026-06-18",
       "category": "Utilities & Tools",
       "description": "All-in-one utility for PS5 payload management and system tools",
-      "checksum": "cec800889364e4e8a4586989f27a1e31717b3b384683386b88deef9c78bc50dd",
-      "icon_key": "elf-arsenal"
+      "checksum": "cec800889364e4e8a4586989f27a1e31717b3b384683386b88deef9c78bc50dd"
     },
     {
       "id": "liveshell",

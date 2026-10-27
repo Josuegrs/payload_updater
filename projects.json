@@ -277,7 +277,7 @@
     "host": "github",
     "asset_pattern": ".*\\.elf",
     "category": "Utilities & Tools",
-    "description": "orbit-store-ps5"
+    "description": "Orbit Store"
   },
   {
     "id": "neoenabler",
