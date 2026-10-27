@@ -6,7 +6,7 @@ import os
 import re
 import sys
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import quote, urlsplit
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent
@@ -17,6 +17,75 @@ def get_json(url):
         headers['Authorization'] = 'Bearer ' + os.environ['GITHUB_TOKEN']
     with urlopen(Request(url, headers=headers), timeout=60) as response:
         return json.load(response)
+
+def get_bytes(url, limit=2 * 1024 * 1024):
+    headers = {'User-Agent': 'PS5-Catalog-Updater'}
+    with urlopen(Request(url, headers=headers), timeout=30) as response:
+        data = response.read(limit + 1)
+    if len(data) > limit:
+        raise ValueError('Icon source exceeds 2 MiB')
+    return data
+
+def image_data_uri(data, path):
+    suffix = Path(path).suffix.lower()
+    mime = {'.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.svg': 'image/svg+xml'}.get(suffix)
+    if not mime:
+        return None
+    if mime == 'image/png' and not data.startswith(b'\x89PNG\r\n\x1a\n'):
+        return None
+    if mime == 'image/jpeg' and not data.startswith(b'\xff\xd8\xff'):
+        return None
+    if mime == 'image/svg+xml':
+        if (b'<svg' not in data[:2048].lower() or re.search(
+                br'<\s*(script|foreignObject)\b|\bon\w+\s*=|javascript:|\bhref\s*=|url\s*\(', data, re.I)):
+            return None
+    encoded = __import__('base64').b64encode(data).decode('ascii')
+    value = f'data:{mime};base64,{encoded}'
+    return value if len(value) <= 12288 else None
+
+def discover_icon(project, fetch=get_json):
+    """Find a small icon image in the payload's own repository."""
+    base = project['base']
+    host = urlsplit(base).netloc
+    repo = project['repo']
+    api = ('https://api.github.com/repos/' + repo if project['host'] == 'github'
+           else f'https://{host}/api/v1/repos/{repo}')
+    metadata = fetch(api)
+    branch = metadata.get('default_branch') or 'main'
+    tree_url = (f'{api}/git/trees/{quote(branch, safe="")}?recursive=1')
+    tree = fetch(tree_url)
+    entries = tree.get('tree', []) if isinstance(tree, dict) else []
+    candidates = []
+    for entry in entries:
+        path = entry.get('path', '')
+        name = Path(path).name.lower()
+        if Path(path).suffix.lower() not in {'.png', '.jpg', '.jpeg', '.svg'}:
+            continue
+        if any(word in name for word in ('badge', 'screenshot', 'screen-shot', 'banner', 'background', 'cover')):
+            continue
+        score = 0
+        if any(word in name for word in ('icon', 'logo', 'app-icon', 'app_icon')):
+            score += 100
+        if any(word in path.lower() for word in ('/icon', '/logo', 'icons/')):
+            score += 30
+        if name in {'icon.png', 'logo.png', 'icon.svg', 'logo.svg', 'app.png'}:
+            score += 20
+        if path.count('/') == 0:
+            score += 5
+        candidates.append((score, path))
+    candidates.sort(key=lambda item: (-item[0], len(item[1]), item[1].lower()))
+    for _, path in candidates[:6]:
+        if project['host'] == 'github':
+            url = f'https://raw.githubusercontent.com/{repo}/{quote(branch, safe="")}/{quote(path, safe="/")}'
+        else:
+            url = f'https://{host}/{repo}/raw/branch/{quote(branch, safe="")}/{quote(path, safe="/")}'
+        try:
+            icon = image_data_uri(get_bytes(url), path)
+            if icon:
+                return icon
+        except Exception:
+            continue
+    return None
 
 def asset_hash(asset):
     digest = asset.get('digest') or ''
@@ -57,7 +126,28 @@ def report_failures(failures):
 def build(fetch=get_json, hash_asset=asset_hash, continue_on_error=False):
     projects = json.loads((ROOT / 'projects.json').read_text())
     previous_catalog = json.loads((ROOT / 'payloads-extra.json').read_text())
+    icon_catalog_path = ROOT / 'icons.json'
+    icon_catalog = json.loads(icon_catalog_path.read_text()) if icon_catalog_path.exists() else {'icons': {}}
+    icons = icon_catalog.get('icons', {})
+    # Keep existing images so a transient repository/API failure cannot erase them.
+    normalized_icons = {}
+    for old_key, data in icons.items():
+        if not isinstance(data, str) or not data.startswith((
+                'data:image/png;base64,', 'data:image/jpeg;base64,', 'data:image/svg+xml;base64,')):
+            continue
+        key = hashlib.sha256(data.encode('ascii')).hexdigest()
+        normalized_icons[key] = data
     previous_items = {item['id']: item for item in previous_catalog.get('payloads', [])}
+    icon_by_project = {}
+    for project in projects:
+        previous = previous_items.get(project['id'], {})
+        previous_key = previous.get('icon_key', project['id'])
+        previous_data = icons.get(previous_key) or icons.get(project['id'])
+        try:
+            icon_by_project[project['id']] = discover_icon(project) or previous_data
+        except Exception as error:
+            icon_by_project[project['id']] = previous_data
+            print(f"WARNING: icon lookup failed for {project['name']}: {error}", file=sys.stderr)
     items = []
     failures = []
     for project in projects:
@@ -95,7 +185,14 @@ def build(fetch=get_json, hash_asset=asset_hash, continue_on_error=False):
                 items.append(previous_items[project['id']])
             failures.append((project, error, retained))
     for item in items:
-        item.setdefault('icon_key', item['id'])
+        data = icon_by_project.get(item['id'])
+        if data:
+            key = hashlib.sha256(data.encode('ascii')).hexdigest()
+            normalized_icons[key] = data
+            item['icon_key'] = key
+        else:
+            item.pop('icon_key', None)
+    icon_catalog_path.write_text(json.dumps({'icons': normalized_icons}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     report_failures(failures)
     return dict(name='PS5 Payload Catalog', icons_url='icons.json', payloads=items)
 
