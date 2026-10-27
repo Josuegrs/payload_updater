@@ -382,7 +382,7 @@
     },
     {
       "id": "orbit-store-ps5",
-      "name": "orbit-store-ps5",
+      "name": "Orbit Store",
       "filename": "orbit_store.elf",
       "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.7.0/orbit_store.elf",
       "source": "https://github.com/saawant12/orbit-store-ps5/releases",

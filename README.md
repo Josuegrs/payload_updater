@@ -58,7 +58,7 @@ On each run, the updater matches projects by their source repository and copies 
 - [itsPLK / PS5-Lapy-JB-Daemon](https://github.com/itsPLK/PS5-Lapy-JB-Daemon) - **Lapy-JB-Daemon**
 - [BestPig / BackPork](https://github.com/BestPig/BackPork) - **BackPork**
 - [etaHEN / etaHEN](https://github.com/etaHEN/etaHEN) - **etaHEN**
-- [saawant12 / orbit-store-ps5](https://github.com/saawant12/orbit-store-ps5) - **orbit-store-ps5**
+- [saawant12 / orbit-store-ps5](https://github.com/saawant12/orbit-store-ps5) - **Orbit Store**
 - [gasb07 / NeoEnabler](https://github.com/gasb07/NeoEnabler) - **NeoEnabler**
 - [quer3q / ps5-dump-forge](https://github.com/quer3q/ps5-dump-forge) - **ps5-dump-forge**
 - [notmaj0r / ProsperoMgr](https://github.com/notmaj0r/ProsperoMgr) - **ProsperoMgr**

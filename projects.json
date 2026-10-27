@@ -271,7 +271,7 @@
   },
   {
     "id": "orbit-store-ps5",
-    "name": "orbit-store-ps5",
+    "name": "Orbit Store",
     "base": "https://github.com/saawant12/orbit-store-ps5",
     "repo": "saawant12/orbit-store-ps5",
     "host": "github",
