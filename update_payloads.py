@@ -129,14 +129,9 @@ def build(fetch=get_json, hash_asset=asset_hash, continue_on_error=False):
     icon_catalog_path = ROOT / 'icons.json'
     icon_catalog = json.loads(icon_catalog_path.read_text()) if icon_catalog_path.exists() else {'icons': {}}
     icons = icon_catalog.get('icons', {})
-    # Keep existing images so a transient repository/API failure cannot erase them.
-    normalized_icons = {}
-    for old_key, data in icons.items():
-        if not isinstance(data, str) or not data.startswith((
-                'data:image/png;base64,', 'data:image/jpeg;base64,', 'data:image/svg+xml;base64,')):
-            continue
-        key = hashlib.sha256(data.encode('ascii')).hexdigest()
-        normalized_icons[key] = data
+    # Keep stable payload IDs as icon keys. Changing keys invalidates Payload
+    # Manager's per-source icon cache and is unnecessary for catalog lookup.
+    published_icons = {}
     previous_items = {item['id']: item for item in previous_catalog.get('payloads', [])}
     icon_by_project = {}
     for project in projects:
@@ -187,12 +182,11 @@ def build(fetch=get_json, hash_asset=asset_hash, continue_on_error=False):
     for item in items:
         data = icon_by_project.get(item['id'])
         if data:
-            key = hashlib.sha256(data.encode('ascii')).hexdigest()
-            normalized_icons[key] = data
-            item['icon_key'] = key
+            published_icons[item['id']] = data
+            item['icon_key'] = item['id']
         else:
             item.pop('icon_key', None)
-    icon_catalog_path.write_text(json.dumps({'icons': normalized_icons}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    icon_catalog_path.write_text(json.dumps({'icons': published_icons}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     report_failures(failures)
     return dict(name='PS5 Payload Catalog', icons_url='icons.json', payloads=items)
 
