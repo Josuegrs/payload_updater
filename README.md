@@ -37,7 +37,7 @@ The workflow can be started manually. It updates configured projects from their 
 - [etaHEN / etaHEN](https://github.com/etaHEN/etaHEN) - **etaHEN**
 - [ps5-payload-dev / ftpsrv](https://github.com/ps5-payload-dev/ftpsrv) - **ftpsrv**
 - [drakmor / ftpsrv](https://github.com/drakmor/ftpsrv) - **ftpsrv-drakmor**
-- [earthonion / garlic-savemgr](https://github.com/earthonion/garlic-savemgr) - **garlic-savemgr**
+- [earthonion / garlic-savemgr](https://git.etawen.dev/earthonion/garlic-savemgr) - **garlic-savemgr**
 - [X-F1REBALL-X / HearBridge-PS5](https://github.com/X-F1REBALL-X/HearBridge-PS5) - **HearBridge-PS5**
 - [disco-trooper / hush](https://github.com/disco-trooper/hush) - **Hush**
 - [Michele-M-Media / HYPERHEN](https://github.com/Michele-M-Media/HYPERHEN) - **HyperHEN**
@@ -53,6 +53,7 @@ The workflow can be started manually. It updates configured projects from their 
 - [saawant12 / orbit-store-ps5](https://github.com/saawant12/orbit-store-ps5) - **Orbit Store**
 - [itsPLK / ps5-pkg-manager](https://github.com/itsPLK/ps5-pkg-manager) - **PKG-Manager**
 - [ghost1372 / PlayTime](https://github.com/ghost1372/PlayTime) - **PlayTime**
+- [itsPLK / pldmgr](https://github.com/itsPLK/pldmgr) - **pldmgr**
 - [AmineWallah / ProsperoGallery](https://github.com/AmineWallah/ProsperoGallery) - **ProsperoGallery**
 - [notmaj0r / ProsperoMgr](https://github.com/notmaj0r/ProsperoMgr) - **ProsperoMgr**
 - [illusionyy / ps-patch-system](https://github.com/illusionyy/ps-patch-system) - **ps-patch-system**

@@ -97,7 +97,7 @@ def build(fetch=get_json, hash_asset=asset_hash, continue_on_error=False):
             if retained:
                 items.append(previous_items[project['id']])
             failures.append((project, error, retained))
-    from sync_icons import OFFICIAL, add_missing_payloads, icons_url, sync
+    from sync_icons import OFFICIAL, add_missing_payloads, icons_url, sync, update_readme
     try:
         added = add_missing_payloads(projects, items, fetch(OFFICIAL))
         if added:
@@ -110,6 +110,7 @@ def build(fetch=get_json, hash_asset=asset_hash, continue_on_error=False):
         print(f'WARNING: official icon sync failed; keeping saved icons: {error}', file=sys.stderr)
         published_icons = sync(projects, items, icons, lambda url: {'payloads': [], 'icons_url': 'icons.json', 'icons': {}})
     icon_catalog_path.write_text(json.dumps({'icons': published_icons}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    update_readme(items)
     report_failures(failures)
     return dict(name='PS5 Payload Catalog', icons_url=icons_url(published_icons), payloads=items)
 

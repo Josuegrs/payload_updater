@@ -32,11 +32,12 @@ jobs:
 
       - name: Guardar cambios
         run: |
-          if ! git diff --quiet -- payloads-extra.json icons.json; then
+          if ! git diff --quiet -- payloads-extra.json icons.json README.md; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git add payloads-extra.json
             git add icons.json
+            git add README.md
             git commit -m 'Actualizar versiones de payloads'
             git pull --rebase origin main
             git push origin HEAD:main

@@ -3,7 +3,7 @@ import hashlib
 import json
 import re
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parent
 OFFICIAL = 'https://itsplk.github.io/ps5-payloads-mirror/payloads_v2.json'
@@ -15,12 +15,18 @@ def icons_url(icons):
 
 
 def source_key(url):
-    return url.rstrip('/').lower()
+    parsed = urlsplit(url if '://' in url else 'https://' + url)
+    path = parsed.path.rstrip('/')
+    if path.lower().endswith('/releases'):
+        path = path[:-len('/releases')]
+    if path.lower().endswith('.git'):
+        path = path[:-4]
+    return (parsed.hostname or '').lower() + path.lower()
 
 
 def add_missing_payloads(projects, items, official):
     """Append official catalog entries whose source repository is not present locally."""
-    known_sources = {source_key(p['base'] + '/releases') for p in projects}
+    known_sources = {source_key(p['base']) for p in projects}
     known_sources.update(source_key(item['source']) for item in items if item.get('source'))
     known_ids = {item['id'] for item in items}
     added = []
@@ -40,6 +46,29 @@ def add_missing_payloads(projects, items, official):
         known_sources.add(source_key(source))
     items.extend(added)
     return added
+
+
+def update_readme(items):
+    path = ROOT / 'README.md'
+    content = path.read_text(encoding='utf-8')
+    before, marker, _ = content.partition('## Projects\n')
+    if not marker:
+        raise ValueError('README.md has no Projects section')
+    rows = []
+    for item in items:
+        source = item.get('source', '')
+        if not source:
+            continue
+        repo_url = source.rstrip('/')
+        if repo_url.lower().endswith('/releases'):
+            repo_url = repo_url[:-len('/releases')]
+        repo = urlsplit(repo_url).path.strip('/')
+        if not repo:
+            continue
+        name = item.get('name') or item.get('id')
+        rows.append((name.casefold(), f'- [{repo.replace("/", " / ")}]({repo_url}) - **{name}**'))
+    rows.sort(key=lambda row: (row[0], row[1].casefold()))
+    path.write_text(before + '## Projects\n\n' + '\n'.join(row for _, row in rows) + '\n', encoding='utf-8')
 
 
 def sync(projects, items, icons, fetch):
@@ -81,5 +110,6 @@ if __name__ == '__main__':
     result = sync(projects, catalog['payloads'], icons, lambda url: official if url == OFFICIAL else get_json(url))
     catalog['icons_url'] = icons_url(result)
     icons_path.write_text(json.dumps({'icons': result}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    update_readme(catalog['payloads'])
     catalog_path.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'Updated {len(result)} icon references')
