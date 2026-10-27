@@ -1,6 +1,6 @@
 {
   "name": "PS5 Payload Catalog",
-  "icons_url": "icons.json?v=2",
+  "icons_url": "icons.json?v=0ad26ac15028d945",
   "payloads": [
     {
       "id": "ps5upload",
@@ -27,7 +27,8 @@
       "last_update": "2026-10-22",
       "category": "Utilities & Tools",
       "description": "A file manager for PS5 with a web UI",
-      "checksum": "f3461eb967da7afbbf0420d3294fbc8f999cc2ad53a756bed413aa80c7cfa67a"
+      "checksum": "f3461eb967da7afbbf0420d3294fbc8f999cc2ad53a756bed413aa80c7cfa67a",
+      "icon_key": "ps5-web-file-manager"
     },
     {
       "id": "garlic-savemgr",
@@ -194,7 +195,8 @@
       "last_update": "2026-09-23",
       "category": "Utilities & Tools",
       "description": "PS5 debugger payload - userland TCP wire-protocol server hosted inside SceShellCore.",
-      "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3"
+      "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3",
+      "icon_key": "ps5debug-ng"
     },
     {
       "id": "kstuff-lite",
@@ -389,8 +391,7 @@
       "last_update": "2026-10-26",
       "category": "Utilities & Tools",
       "description": "orbit-store-ps5",
-      "checksum": "ca46295969f4711096c036af5cad9925e96b24fcefc5211ed07dbe768f6f809b",
-      "icon_key": "orbit-store-ps5"
+      "checksum": "ca46295969f4711096c036af5cad9925e96b24fcefc5211ed07dbe768f6f809b"
     },
     {
       "id": "neoenabler",
@@ -584,8 +585,7 @@
       "last_update": "2026-10-23",
       "category": "Utilities & Tools",
       "description": "Web dashboard for viewing and editing PS5 game play time",
-      "checksum": "69cc6df2296c9a1fe5f9099700f362e99ca56c5da38496c0b27ceab2beb4d4d5",
-      "icon_key": "playtime"
+      "checksum": "69cc6df2296c9a1fe5f9099700f362e99ca56c5da38496c0b27ceab2beb4d4d5"
     },
     {
       "id": "ps5-dualsense-deadzone-1360",
@@ -598,8 +598,7 @@
       "last_update": "2026-10-23",
       "category": "Utilities & Tools",
       "description": "In-memory cone or circle deadzone filter for DualSense sticks on PS5 firmware 13.60",
-      "checksum": "569984f2b22da5f6bb2a266ce166fde5a83a77f1765cf72e8e86764ccea1dc04",
-      "icon_key": "ps5-dualsense-deadzone-1360"
+      "checksum": "569984f2b22da5f6bb2a266ce166fde5a83a77f1765cf72e8e86764ccea1dc04"
     },
     {
       "id": "tabshifter",
@@ -709,7 +708,8 @@
       "last_update": "2026-10-21",
       "category": "Utilities & Tools",
       "description": "USB save backup utility for jailbroken PS5s",
-      "checksum": "91a7661e1f6708da77fe2bb5a5e4634ff1c531445df65bb1681ef2b21357af4c"
+      "checksum": "91a7661e1f6708da77fe2bb5a5e4634ff1c531445df65bb1681ef2b21357af4c",
+      "icon_key": "ps5save"
     },
     {
       "id": "welcomehubactivator",
@@ -722,7 +722,8 @@
       "last_update": "2026-10-23",
       "category": "Utilities & Tools",
       "description": "A PS5 ELF payload that enables the Welcome Hub.",
-      "checksum": "f989cc412ef782a01f394fe80cf8fc237970884ba90ce4fe4baac165c0b5a2a6"
+      "checksum": "f989cc412ef782a01f394fe80cf8fc237970884ba90ce4fe4baac165c0b5a2a6",
+      "icon_key": "welcomehubactivator"
     }
   ]
 }

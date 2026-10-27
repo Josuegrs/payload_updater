@@ -25,9 +25,9 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 
 ## Updating
 
-The catalog is updated automatically every hour. The script finds the latest release for each project, retrieves its payload, and updates `payloads-extra.json` with the corresponding version, date, link, and SHA-256 hash.
+The workflow can be started manually. It finds the latest release for each project and updates `payloads-extra.json` with its version, date, link, and SHA-256 hash.
 
-On each workflow run, the updater also searches each project's own repository for an icon or logo image. Explicit image links can be set in `projects.json`. Raster images are reduced to the size supported by Payload Manager and stored in this repository's `icons.json`; the catalog does not depend on the official payload mirror. If an icon cannot be fetched, the last saved copy is kept.
+On each run, the updater matches projects by their source repository and copies their icons from the official PS5 Payload Manager catalog. Icons for projects absent from that catalog can be added manually to `icons.json` under the project ID and are retained. The icons for orbit-store-ps5, PlayTime, and PS5 DualSense Deadzone are disabled. If the official catalog cannot be fetched, existing icons are retained.
 
 ## Projects
 
