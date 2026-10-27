@@ -2,6 +2,10 @@
 
 Public payload catalog for **PS5 Payload Manager**. It includes 51 projects, their download links, and their icons.
 
+## Disclaimer
+
+This catalog links to third-party projects. I do not create or maintain these projects, and I am not responsible for payload failures, damage, data loss, or any other issues resulting from downloading or using them. Use them at your own risk.
+
 ## Files
 
 - [`payloads-extra.json`](payloads-extra.json): catalog to import into PS5 Payload Manager.
