@@ -474,7 +474,7 @@
       "version": "v0.1.1-beta",
       "last_update": "2026-10-10",
       "category": "Utilities & Tools",
-      "description": "GalerÃƒÂ­a para ver y descargar capturas y videos desde el navegador. (pre-release / beta)",
+      "description": "Galería para ver y descargar capturas y videos desde el navegador. (pre-release / beta)",
       "checksum": "eb2c690d3360d75f324cb2f4e9de4860a715a4ab95c4e9998a8c977741304736",
       "icon_key": "prosperogallery"
     },
@@ -670,7 +670,7 @@
       "version": "v0.5.0",
       "last_update": "2026-10-25",
       "category": "Networking & Servers",
-      "description": "PS5 helper for Orbit Play Remote Play on Mac, Windows, and Linux (pre-release / beta)",
+      "description": "PS5 helper for Orbit Play Remote Play on Mac, Windows, and Linux",
       "checksum": "f6a7de0edc94e1d45ede0893ad5b6e3a17ce7c33f5fbabaf9640d9951966a4c1",
       "icon_key": "orbit-play-ps5"
     },
@@ -712,7 +712,7 @@
       "version": "v0.2.0-beta",
       "last_update": "2026-10-19",
       "category": "Media & Entertainment",
-      "description": "Native Spotify app integration for jailbroken PS5 consoles (pre-release / beta)",
+      "description": "Native Spotify app integration for jailbroken PS5 consoles",
       "checksum": "6ba14304946055f556adc1e495ebc3439bab7b9b66376f59b6c2c33618c6ad16",
       "icon_key": "spotless"
     }
