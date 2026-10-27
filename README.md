@@ -70,7 +70,6 @@ On each run, the updater matches projects by their source repository and copies 
 - [Michele-M-Media / HYPERHEN](https://github.com/Michele-M-Media/HYPERHEN) - **HyperHEN**
 - [diegobarbosaa / OmniPad-PS5](https://github.com/diegobarbosaa/OmniPad-PS5) - **OmniPad PS5**
 - [juma-sayeh / PS5-Game-Compressor](https://github.com/juma-sayeh/PS5-Game-Compressor) - **PS5 Game Compressor**
-- [aloksaurabh / elf-arsenal](https://github.com/aloksaurabh/elf-arsenal) - **ELF Arsenal**
 - [ZiZc3 / LiveShell](https://github.com/ZiZc3/LiveShell) - **LiveShell**
 - [ghost1372 / PlayTime](https://github.com/ghost1372/PlayTime) - **PlayTime**
 - [fvaha / ps5-dualsense-deadzone-13.60](https://github.com/fvaha/ps5-dualsense-deadzone-13.60) - **PS5 DualSense Deadzone (13.60)**

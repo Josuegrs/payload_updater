@@ -390,16 +390,6 @@
     "description": "Standalone PS5 payload for compressing, unpacking, validating, and repairing ShadowMountPlus-mounted games"
   },
   {
-    "id": "elf-arsenal",
-    "name": "ELF Arsenal",
-    "base": "https://github.com/aloksaurabh/elf-arsenal",
-    "repo": "aloksaurabh/elf-arsenal",
-    "host": "github",
-    "asset_pattern": "elf-arsenal\\.elf",
-    "category": "Utilities & Tools",
-    "description": "All-in-one utility for PS5 payload management and system tools"
-  },
-  {
     "id": "liveshell",
     "name": "LiveShell",
     "base": "https://github.com/ZiZc3/LiveShell",

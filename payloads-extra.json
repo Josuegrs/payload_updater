@@ -547,19 +547,6 @@
       "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b"
     },
     {
-      "id": "elf-arsenal",
-      "name": "ELF Arsenal",
-      "filename": "elf-arsenal.elf",
-      "url": "https://github.com/aloksaurabh/elf-arsenal/releases/download/v1.6.21/elf-arsenal.elf",
-      "source": "https://github.com/aloksaurabh/elf-arsenal/releases",
-      "source_direct": "https://github.com/aloksaurabh/elf-arsenal/releases/download/v1.6.21/elf-arsenal.elf",
-      "version": "v1.6.21",
-      "last_update": "2026-06-18",
-      "category": "Utilities & Tools",
-      "description": "All-in-one utility for PS5 payload management and system tools",
-      "checksum": "cec800889364e4e8a4586989f27a1e31717b3b384683386b88deef9c78bc50dd"
-    },
-    {
       "id": "liveshell",
       "name": "LiveShell",
       "filename": "liveshell.elf",
