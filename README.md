@@ -13,6 +13,15 @@ This catalog links to third-party projects. I do not create or maintain these pr
 - [`projects.json`](projects.json): list of included projects.
 - [`update_payloads.py`](update_payloads.py): updates the catalog from official releases.
 
+## Add the Catalog to PS5 Payload Manager
+
+1. Open the PS5 Payload Manager dashboard.
+2. Go to **Settings** (gear icon) and select **Manage Sources**.
+3. Select **Add Source**, paste the catalog URL below, and select **Add**.
+4. Payload Manager will validate the URL and add the catalog to your sources.
+
+[Raw catalog URL](https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.json)
+
 ## Updating
 
 GitHub Actions updates the catalog automatically every hour.
