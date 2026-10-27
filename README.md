@@ -1,6 +1,6 @@
 # PS5 Payload Catalog
 
-Public payload catalog for **PS5 Payload Manager**. It includes 47 projects, their download links, and their icons.
+Public payload catalog for **PS5 Payload Manager**. It includes 52 projects, their download links, and their icons.
 
 ## Files
 

@@ -474,7 +474,7 @@
       "version": "v0.1.1-beta",
       "last_update": "2026-10-10",
       "category": "Utilities & Tools",
-      "description": "GalerÃ­a para ver y descargar capturas y videos desde el navegador. (pre-release / beta)",
+      "description": "GalerÃƒÂ­a para ver y descargar capturas y videos desde el navegador. (pre-release / beta)",
       "checksum": "eb2c690d3360d75f324cb2f4e9de4860a715a4ab95c4e9998a8c977741304736",
       "icon_key": "prosperogallery"
     },
@@ -659,6 +659,76 @@
       "description": "Turns off the PS5's continuous recent-gameplay recording",
       "checksum": "5c98dd0881b64eb00e90d58d90056a66193ef8ee50e2d9906a1e298b5a34c352",
       "icon_key": "hush"
+    },
+    {
+      "id": "orbit-play-ps5",
+      "name": "Orbit Play",
+      "filename": "orbit-play-0.5.0-ps5.elf",
+      "url": "https://github.com/saawant12/orbit-play-ps5/releases/download/v0.5.0/orbit-play-0.5.0-ps5.elf",
+      "source": "https://github.com/saawant12/orbit-play-ps5/releases",
+      "source_direct": "https://github.com/saawant12/orbit-play-ps5/releases/download/v0.5.0/orbit-play-0.5.0-ps5.elf",
+      "version": "v0.5.0",
+      "last_update": "2026-10-25",
+      "category": "Networking & Servers",
+      "description": "PS5 helper for Orbit Play Remote Play on Mac, Windows, and Linux (pre-release / beta)",
+      "checksum": "f6a7de0edc94e1d45ede0893ad5b6e3a17ce7c33f5fbabaf9640d9951966a4c1",
+      "icon_key": "orbit-play-ps5"
+    },
+    {
+      "id": "ps5diag",
+      "name": "PS5Diag",
+      "filename": "ps5diag.elf",
+      "url": "https://github.com/tojala1998/PS5Diag/releases/download/v1.0.1/ps5diag.elf",
+      "source": "https://github.com/tojala1998/PS5Diag/releases",
+      "source_direct": "https://github.com/tojala1998/PS5Diag/releases/download/v1.0.1/ps5diag.elf",
+      "version": "v1.0.1",
+      "last_update": "2026-10-24",
+      "category": "Utilities & Tools",
+      "description": "Diagnostics payload for PlayStation 5",
+      "checksum": "6223f0582937deab5a06ada24c1e3fb5f8261cdfb89708ddf0c16fb6869da084",
+      "icon_key": "ps5diag"
+    },
+    {
+      "id": "blackwiresmb",
+      "name": "Blackwire SMB",
+      "filename": "Blackwire-Beta.elf",
+      "url": "https://github.com/XXD3V3L0P3RXX/BlackwireSMB/releases/download/v0.3.0-beta.2/Blackwire-Beta.elf",
+      "source": "https://github.com/XXD3V3L0P3RXX/BlackwireSMB/releases",
+      "source_direct": "https://github.com/XXD3V3L0P3RXX/BlackwireSMB/releases/download/v0.3.0-beta.2/Blackwire-Beta.elf",
+      "version": "v0.3.0-beta.2",
+      "last_update": "2026-10-26",
+      "category": "Networking & Servers",
+      "description": "Stream PS5 games from a PC SMB share (pre-release / beta)",
+      "checksum": "ad3505cca3c6b409152e8c12024d81582a351aee473d7fecee4d82bc4e1e252c",
+      "icon_key": "blackwiresmb"
+    },
+    {
+      "id": "spotless",
+      "name": "Spotless",
+      "filename": "Spotless.elf",
+      "url": "https://github.com/abhi245y/spotless/releases/download/v0.2.0-beta/Spotless.elf",
+      "source": "https://github.com/abhi245y/spotless/releases",
+      "source_direct": "https://github.com/abhi245y/spotless/releases/download/v0.2.0-beta/Spotless.elf",
+      "version": "v0.2.0-beta",
+      "last_update": "2026-10-19",
+      "category": "Media & Entertainment",
+      "description": "Native Spotify app integration for jailbroken PS5 consoles (pre-release / beta)",
+      "checksum": "6ba14304946055f556adc1e495ebc3439bab7b9b66376f59b6c2c33618c6ad16",
+      "icon_key": "spotless"
+    },
+    {
+      "id": "ps5-pkg-folderizer",
+      "name": "PKG Folderizer",
+      "filename": "PPSA99180.zip",
+      "url": "https://github.com/desstannsoftware/ps5-pkg-folderizer/releases/download/01.049.000/PPSA99180.zip",
+      "source": "https://github.com/desstannsoftware/ps5-pkg-folderizer/releases",
+      "source_direct": "https://github.com/desstannsoftware/ps5-pkg-folderizer/releases/download/01.049.000/PPSA99180.zip",
+      "version": "01.049.000",
+      "last_update": "2026-10-27",
+      "category": "Utilities & Tools",
+      "description": "PS5 app for converting PS4 and PS5 debug PKGs into ShadowMountPlus folders or images",
+      "checksum": "c8d45a0efddf63343cf9f027f4745a2202f5b76c54fc913944b01c3127f98af6",
+      "icon_key": "ps5-pkg-folderizer"
     }
   ]
 }
