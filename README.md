@@ -25,17 +25,7 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 
 ## Updating
 
-The catalog is updated automatically by a VPS.
-
-If a project fails to update, the workflow continues with the remaining projects and keeps that project's previous catalog entry when available. Failed projects appear as warnings in the workflow run and in its summary. A project with no previous entry is omitted until its release can be retrieved successfully.
-
-To update it locally, you need Python 3.12 or later and an internet connection:
-
-```bash
-python update_payloads.py
-```
-
-The script finds the latest release for each project, retrieves its payload, and updates `payloads-extra.json` with the corresponding version, date, link, and SHA-256 hash.
+The catalog is updated automatically every hour. The script finds the latest release for each project, retrieves its payload, and updates `payloads-extra.json` with the corresponding version, date, link, and SHA-256 hash.
 
 ## Projects
 
