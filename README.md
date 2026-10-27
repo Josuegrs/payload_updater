@@ -25,7 +25,7 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 
 ## Updating
 
-The workflow can be started manually. It finds the latest release for each project and updates `payloads-extra.json` with its version, date, link, and SHA-256 hash.
+The workflow can be started manually. It updates configured projects from their latest releases and adds projects present in the official catalog when their source repository is not already included. Duplicate repositories are skipped.
 
 ## Projects
 

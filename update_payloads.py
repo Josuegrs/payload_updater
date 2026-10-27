@@ -97,7 +97,13 @@ def build(fetch=get_json, hash_asset=asset_hash, continue_on_error=False):
             if retained:
                 items.append(previous_items[project['id']])
             failures.append((project, error, retained))
-    from sync_icons import icons_url, sync
+    from sync_icons import OFFICIAL, add_missing_payloads, icons_url, sync
+    try:
+        added = add_missing_payloads(projects, items, fetch(OFFICIAL))
+        if added:
+            print(f'Added {len(added)} payloads from the official catalog: ' + ', '.join(x['name'] for x in added))
+    except Exception as error:
+        print(f'WARNING: official payload import failed; continuing with configured projects: {error}', file=sys.stderr)
     try:
         published_icons = sync(projects, items, icons, fetch)
     except Exception as error:

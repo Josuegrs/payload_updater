@@ -1,6 +1,6 @@
 {
   "name": "PS5 Payload Catalog",
-  "icons_url": "icons.json?v=cba3b847ea7e40f4",
+  "icons_url": "icons.json?v=ab94ec145b6d4f87",
   "payloads": [
     {
       "id": "ps5upload",
@@ -710,6 +710,20 @@
       "description": "A PS5 ELF payload that enables the Welcome Hub.",
       "checksum": "f989cc412ef782a01f394fe80cf8fc237970884ba90ce4fe4baac165c0b5a2a6",
       "icon_key": "welcomehubactivator"
+    },
+    {
+      "name": "pldmgr",
+      "filename": "pldmgr_v0.6.3.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.6.3.elf",
+      "source": "https://github.com/itsPLK/pldmgr/releases",
+      "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.3/pldmgr_v0.6.3.elf",
+      "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
+      "last_update": "2026-10-19",
+      "version": "v0.6.3",
+      "category": "Utilities & Tools",
+      "checksum": "2a42054fd9725e1d9595ff4add95abc30e5b49446fcdcb96c06775a376a841c4",
+      "id": "pldmgr",
+      "icon_key": "pldmgr"
     }
   ]
 }
