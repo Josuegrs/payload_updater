@@ -11,7 +11,7 @@ Public payload catalog for **PS5 Payload Manager**. It includes 44 projects, the
 
 ## Updating
 
-GitHub Actions updates the catalog automatically every hour. You can also run it manually from the **Actions** tab.
+GitHub Actions updates the catalog automatically every hour.
 
 To update it locally, you need Python 3.12 or later and an internet connection:
 
