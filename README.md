@@ -27,7 +27,7 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 
 The catalog is updated automatically every hour. The script finds the latest release for each project, retrieves its payload, and updates `payloads-extra.json` with the corresponding version, date, link, and SHA-256 hash.
 
-On each workflow run, the updater also searches each project's own repository for a small icon or logo image. It stores supported images in this repository's `icons.json` and links them from the catalog, so icons do not depend on the official payload mirror. If an icon cannot be fetched, the last saved copy is kept.
+On each workflow run, the updater also searches each project's own repository for an icon or logo image. Explicit image links can be set in `projects.json`. Raster images are reduced to the size supported by Payload Manager and stored in this repository's `icons.json`; the catalog does not depend on the official payload mirror. If an icon cannot be fetched, the last saved copy is kept.
 
 ## Projects
 

@@ -17,7 +17,8 @@
     "host": "github",
     "asset_pattern": "web-file-mgr-.*\\.elf",
     "category": "Utilities & Tools",
-    "description": "A file manager for PS5 with a web UI"
+    "description": "A file manager for PS5 with a web UI",
+    "icon": false
   },
   {
     "id": "garlic-savemgr",
@@ -67,7 +68,8 @@
     "host": "github",
     "asset_pattern": ".*\\.elf",
     "category": "System & Jailbreak",
-    "description": "A homebrew enabler and Toolbox for jailbroken PS5 consoles, built on etaHEN"
+    "description": "A homebrew enabler and Toolbox for jailbroken PS5 consoles, built on etaHEN",
+    "icon_url": "https://github.com/aydencharles/onionHEN/blob/main/assets/logo.png"
   },
   {
     "id": "ps-patch-system",
@@ -87,7 +89,8 @@
     "host": "github",
     "asset_pattern": ".*\\.elf",
     "category": "Utilities & Tools",
-    "description": "Browse and install PKGs from USB, disc, or SMB shares directly on your PS5"
+    "description": "Browse and install PKGs from USB, disc, or SMB shares directly on your PS5",
+    "icon_url": "https://github.com/itsPLK/ps5-pkg-manager/blob/main/assets/icon0.png"
   },
   {
     "id": "cheatrunner",
@@ -97,7 +100,8 @@
     "host": "github",
     "asset_pattern": ".*\\.elf",
     "category": "Utilities & Tools",
-    "description": "Web-based game cheat trainer"
+    "description": "Web-based game cheat trainer",
+    "icon_url": "https://github.com/notmaj0r/CheatRunner/blob/main/CheatRunner.png"
   },
   {
     "id": "webkit-autoloader-installer",
@@ -137,7 +141,8 @@
     "host": "github",
     "asset_pattern": ".*\\.elf",
     "category": "Utilities & Tools",
-    "description": "PS5 debugger payload - userland TCP wire-protocol server hosted inside SceShellCore."
+    "description": "PS5 debugger payload - userland TCP wire-protocol server hosted inside SceShellCore.",
+    "icon": false
   },
   {
     "id": "kstuff-lite",
@@ -297,7 +302,8 @@
     "host": "github",
     "asset_pattern": ".*\\.elf",
     "category": "Utilities & Tools",
-    "description": "ps5-dump-forge"
+    "description": "ps5-dump-forge",
+    "icon_url": "https://github.com/quer3q/ps5-dump-forge/blob/main/app/src-tauri/icons/128x128@2x.png"
   },
   {
     "id": "prosperomgr",
@@ -307,7 +313,8 @@
     "host": "github",
     "asset_pattern": ".*\\.elf",
     "category": "Utilities & Tools",
-    "description": "ProsperoMgr"
+    "description": "ProsperoMgr",
+    "icon_url": "https://github.com/notmaj0r/ProsperoMgr/blob/main/ProsperoMgr.png"
   },
   {
     "id": "hearbridge-ps5",
@@ -387,7 +394,8 @@
     "host": "github",
     "asset_pattern": "game-compressor\\.elf",
     "category": "Utilities & Tools",
-    "description": "Standalone PS5 payload for compressing, unpacking, validating, and repairing ShadowMountPlus-mounted games"
+    "description": "Standalone PS5 payload for compressing, unpacking, validating, and repairing ShadowMountPlus-mounted games",
+    "icon": false
   },
   {
     "id": "elf-arsenal",
@@ -467,7 +475,8 @@
     "host": "github",
     "asset_pattern": "orbit-play-.*-ps5\\.elf",
     "category": "Networking & Servers",
-    "description": "PS5 helper for Orbit Play Remote Play on Mac, Windows, and Linux"
+    "description": "PS5 helper for Orbit Play Remote Play on Mac, Windows, and Linux",
+    "icon_url": "https://github.com/saawant12/orbit-play-ps5/blob/main/assets/brand/orbit-play-icon.png"
   },
   {
     "id": "ps5diag",
@@ -507,7 +516,8 @@
     "host": "github",
     "asset_pattern": "backup\\.elf",
     "category": "Utilities & Tools",
-    "description": "USB save backup utility for jailbroken PS5s"
+    "description": "USB save backup utility for jailbroken PS5s",
+    "keep_icon": true
   },
   {
     "id": "welcomehubactivator",

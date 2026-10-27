@@ -27,8 +27,7 @@
       "last_update": "2026-10-22",
       "category": "Utilities & Tools",
       "description": "A file manager for PS5 with a web UI",
-      "checksum": "f3461eb967da7afbbf0420d3294fbc8f999cc2ad53a756bed413aa80c7cfa67a",
-      "icon_key": "ps5-web-file-manager"
+      "checksum": "f3461eb967da7afbbf0420d3294fbc8f999cc2ad53a756bed413aa80c7cfa67a"
     },
     {
       "id": "garlic-savemgr",
@@ -195,8 +194,7 @@
       "last_update": "2026-09-23",
       "category": "Utilities & Tools",
       "description": "PS5 debugger payload - userland TCP wire-protocol server hosted inside SceShellCore.",
-      "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3",
-      "icon_key": "ps5debug-ng"
+      "checksum": "949b0e6e0fe3f24f4a820319fd76d9ccb92f9770cbb1a64b09a8eca5c1fc9ff3"
     },
     {
       "id": "kstuff-lite",
@@ -545,8 +543,7 @@
       "last_update": "2026-08-21",
       "category": "Utilities & Tools",
       "description": "Standalone PS5 payload for compressing, unpacking, validating, and repairing ShadowMountPlus-mounted games",
-      "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b",
-      "icon_key": "ps5-game-compressor"
+      "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b"
     },
     {
       "id": "elf-arsenal",
@@ -657,7 +654,8 @@
       "last_update": "2026-10-25",
       "category": "Networking & Servers",
       "description": "PS5 helper for Orbit Play Remote Play on Mac, Windows, and Linux",
-      "checksum": "f6a7de0edc94e1d45ede0893ad5b6e3a17ce7c33f5fbabaf9640d9951966a4c1"
+      "checksum": "f6a7de0edc94e1d45ede0893ad5b6e3a17ce7c33f5fbabaf9640d9951966a4c1",
+      "icon_key": "orbit-play-ps5"
     },
     {
       "id": "ps5diag",

@@ -1,6 +1,8 @@
 """Regenerate the catalog from official GitHub / Forgejo release APIs."""
 import hashlib
 import argparse
+import base64
+import io
 import json
 import os
 import re
@@ -39,12 +41,76 @@ def image_data_uri(data, path):
         if (b'<svg' not in data[:2048].lower() or re.search(
                 br'<\s*(script|foreignObject)\b|\bon\w+\s*=|javascript:|\bhref\s*=|url\s*\(', data, re.I)):
             return None
-    encoded = __import__('base64').b64encode(data).decode('ascii')
+    encoded = base64.b64encode(data).decode('ascii')
     value = f'data:{mime};base64,{encoded}'
-    return value if len(value) <= 12288 else None
+    if len(value) <= 12288:
+        return value
+    if mime not in {'image/png', 'image/jpeg'}:
+        return None
+    try:
+        from PIL import Image
+    except ImportError:
+        return None
+    try:
+        image = Image.open(io.BytesIO(data))
+        image.thumbnail((128, 128), Image.Resampling.LANCZOS)
+        for size in (128, 96, 64, 48, 32, 16):
+            if image.width > size or image.height > size:
+                image.thumbnail((size, size), Image.Resampling.LANCZOS)
+            variants = [image]
+            if mime == 'image/png' and image.mode not in ('P', 'L'):
+                for colors in (128, 64, 32, 16):
+                    variants.append(image.quantize(colors=colors, method=Image.Quantize.FASTOCTREE))
+            for variant in variants:
+                output = io.BytesIO()
+                if mime == 'image/jpeg':
+                    variant.convert('RGB').save(output, format='JPEG', quality=72, optimize=True)
+                else:
+                    variant.save(output, format='PNG', optimize=True)
+                encoded = base64.b64encode(output.getvalue()).decode('ascii')
+                value = f'data:{mime};base64,{encoded}'
+                if len(value) <= 12288:
+                    return value
+    except Exception:
+        return None
+    return None
+
+def compress_data_uri(value):
+    if not isinstance(value, str) or ',' not in value:
+        return None
+    prefix, encoded = value.split(',', 1)
+    if len(value) <= 12288:
+        return value
+    suffix = {'data:image/png;base64': '.png', 'data:image/jpeg;base64': '.jpg'}.get(prefix)
+    if not suffix:
+        return None
+    try:
+        return image_data_uri(base64.b64decode(encoded, validate=True), suffix)
+    except Exception:
+        return None
+
+def fetch_explicit_icon(url):
+    """Fetch an explicitly configured image, including GitHub blob URLs."""
+    parsed = urlsplit(url)
+    path = parsed.path
+    parts = path.split('/')
+    if parsed.netloc.lower() == 'github.com' and len(parts) >= 6 and parts[3] == 'blob':
+        repo = '/'.join(parts[1:3])
+        branch = parts[4]
+        file_path = '/'.join(parts[5:])
+        url = f'https://raw.githubusercontent.com/{repo}/{quote(branch, safe="")}/{quote(file_path, safe="/")}'
+        path = file_path
+    data = image_data_uri(get_bytes(url), path)
+    if not data:
+        raise ValueError(f'Unsupported or oversized icon image: {urlsplit(url).path}')
+    return data
 
 def discover_icon(project, fetch=get_json):
     """Find a small icon image in the payload's own repository."""
+    if project.get('icon') is False:
+        return None
+    if project.get('icon_url'):
+        return fetch_explicit_icon(project['icon_url'])
     base = project['base']
     host = urlsplit(base).netloc
     repo = project['repo']
@@ -137,7 +203,13 @@ def build(fetch=get_json, hash_asset=asset_hash, continue_on_error=False):
     for project in projects:
         previous = previous_items.get(project['id'], {})
         previous_key = previous.get('icon_key', project['id'])
-        previous_data = icons.get(previous_key) or icons.get(project['id'])
+        previous_data = compress_data_uri(icons.get(previous_key) or icons.get(project['id']))
+        if project.get('keep_icon'):
+            icon_by_project[project['id']] = previous_data
+            continue
+        if project.get('icon') is False:
+            icon_by_project[project['id']] = None
+            continue
         try:
             icon_by_project[project['id']] = discover_icon(project) or previous_data
         except Exception as error:

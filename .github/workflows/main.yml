@@ -25,6 +25,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Instalar optimizador de iconos
+        run: python -m pip install 'Pillow>=10,<13'
+
       - name: Actualizar catálogo
         env:
           GITHUB_TOKEN: ${{ github.token }}
