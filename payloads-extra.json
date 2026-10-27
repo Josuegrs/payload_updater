@@ -73,20 +73,6 @@
       "icon_key": "elfldr"
     },
     {
-      "id": "pldmgr",
-      "name": "pldmgr",
-      "filename": "pldmgr_v0.6.3.elf",
-      "url": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.3/pldmgr_v0.6.3.elf",
-      "source": "https://github.com/itsPLK/ps5-payload-manager/releases",
-      "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.3/pldmgr_v0.6.3.elf",
-      "version": "v0.6.3",
-      "last_update": "2026-10-19",
-      "category": "Utilities & Tools",
-      "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
-      "checksum": "2a42054fd9725e1d9595ff4add95abc30e5b49446fcdcb96c06775a376a841c4",
-      "icon_key": "pldmgr"
-    },
-    {
       "id": "ps5-exporter",
       "name": "ps5-exporter",
       "filename": "ps5-exporter.elf",
@@ -715,6 +701,34 @@
       "description": "Native Spotify app integration for jailbroken PS5 consoles",
       "checksum": "6ba14304946055f556adc1e495ebc3439bab7b9b66376f59b6c2c33618c6ad16",
       "icon_key": "spotless"
+    },
+    {
+      "id": "ps5save",
+      "name": "PS5Save",
+      "filename": "backup.elf",
+      "url": "https://github.com/heni0xyz/PS5Save/releases/download/v2/backup.elf",
+      "source": "https://github.com/heni0xyz/PS5Save/releases",
+      "source_direct": "https://github.com/heni0xyz/PS5Save/releases/download/v2/backup.elf",
+      "version": "v2",
+      "last_update": "2026-10-21",
+      "category": "Utilities & Tools",
+      "description": "USB save backup utility for jailbroken PS5s",
+      "checksum": "91a7661e1f6708da77fe2bb5a5e4634ff1c531445df65bb1681ef2b21357af4c",
+      "icon_key": "ps5save"
+    },
+    {
+      "id": "welcomehubactivator",
+      "name": "WelcomeHubActivator",
+      "filename": "WelcomeHubActivator-v1.2.0.elf",
+      "url": "https://github.com/ghost1372/WelcomeHubActivator/releases/download/v1.2.0/WelcomeHubActivator-v1.2.0.elf",
+      "source": "https://github.com/ghost1372/WelcomeHubActivator/releases",
+      "source_direct": "https://github.com/ghost1372/WelcomeHubActivator/releases/download/v1.2.0/WelcomeHubActivator-v1.2.0.elf",
+      "version": "v1.2.0",
+      "last_update": "2026-10-23",
+      "category": "Utilities & Tools",
+      "description": "A PS5 ELF payload that enables the Welcome Hub.",
+      "checksum": "f989cc412ef782a01f394fe80cf8fc237970884ba90ce4fe4baac165c0b5a2a6",
+      "icon_key": "welcomehubactivator"
     }
   ]
 }

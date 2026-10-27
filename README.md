@@ -1,6 +1,6 @@
 # PS5 Payload Catalog
 
-Public payload catalog for **PS5 Payload Manager**. It includes 51 projects, their download links, and their icons.
+Public payload catalog for **PS5 Payload Manager**. It includes 52 projects, their download links, and their icons.
 
 ## Disclaimer
 
@@ -42,7 +42,6 @@ The script finds the latest release for each project, retrieves its payload, and
 - [earthonion / garlic-savemgr](https://github.com/earthonion/garlic-savemgr) - **garlic-savemgr**
 - [drakmor / ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus) - **ShadowMountPlus**
 - [ps5-payload-dev / elfldr](https://github.com/ps5-payload-dev/elfldr) - **elfldr**
-- [itsPLK / ps5-payload-manager](https://github.com/itsPLK/ps5-payload-manager) - **pldmgr**
 - [Marice / ps5-exporter](https://github.com/Marice/ps5-exporter) - **ps5-exporter**
 - [aydencharles / onionHEN](https://github.com/aydencharles/onionHEN) - **onionHEN**
 - [illusionyy / ps-patch-system](https://github.com/illusionyy/ps-patch-system) - **ps-patch-system**
@@ -88,3 +87,5 @@ The script finds the latest release for each project, retrieves its payload, and
 - [tojala1998 / PS5Diag](https://github.com/tojala1998/PS5Diag) - **PS5Diag**
 - [XXD3V3L0P3RXX / BlackwireSMB](https://github.com/XXD3V3L0P3RXX/BlackwireSMB) - **Blackwire SMB**
 - [abhi245y / spotless](https://github.com/abhi245y/spotless) - **Spotless**
+- [heni0xyz / PS5Save](https://github.com/heni0xyz/PS5Save) - **PS5Save**
+- [ghost1372 / WelcomeHubActivator](https://github.com/ghost1372/WelcomeHubActivator) - **WelcomeHubActivator**

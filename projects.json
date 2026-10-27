@@ -50,16 +50,6 @@
     "description": "An ELF loader for jailbroken PS5s that accepts payloads on port 9021"
   },
   {
-    "id": "pldmgr",
-    "name": "pldmgr",
-    "base": "https://github.com/itsPLK/ps5-payload-manager",
-    "repo": "itsPLK/ps5-payload-manager",
-    "host": "github",
-    "asset_pattern": ".*\\.elf",
-    "category": "Utilities & Tools",
-    "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5."
-  },
-  {
     "id": "ps5-exporter",
     "name": "ps5-exporter",
     "base": "https://github.com/Marice/ps5-exporter",
@@ -508,5 +498,25 @@
     "asset_pattern": "Spotless\\.elf",
     "category": "Media & Entertainment",
     "description": "Native Spotify app integration for jailbroken PS5 consoles"
+  },
+  {
+    "id": "ps5save",
+    "name": "PS5Save",
+    "base": "https://github.com/heni0xyz/PS5Save",
+    "repo": "heni0xyz/PS5Save",
+    "host": "github",
+    "asset_pattern": "backup\\.elf",
+    "category": "Utilities & Tools",
+    "description": "USB save backup utility for jailbroken PS5s"
+  },
+  {
+    "id": "welcomehubactivator",
+    "name": "WelcomeHubActivator",
+    "base": "https://github.com/ghost1372/WelcomeHubActivator",
+    "repo": "ghost1372/WelcomeHubActivator",
+    "host": "github",
+    "asset_pattern": "WelcomeHubActivator-v.*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "A PS5 ELF payload that enables the Welcome Hub."
   }
 ]
