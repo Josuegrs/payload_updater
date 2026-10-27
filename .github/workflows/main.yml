@@ -28,7 +28,7 @@ jobs:
       - name: Actualizar catálogo
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python update_payloads.py
+        run: python update_payloads.py --continue-on-error
 
       - name: Guardar cambios
         run: |

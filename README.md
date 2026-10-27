@@ -25,7 +25,9 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 
 ## Updating
 
-GitHub Actions updates the catalog automatically every hour.
+The catalog is updated automatically by a VPS.
+
+If a project fails to update, the workflow continues with the remaining projects and keeps that project's previous catalog entry when available. Failed projects appear as warnings in the workflow run and in its summary. A project with no previous entry is omitted until its release can be retrieved successfully.
 
 To update it locally, you need Python 3.12 or later and an internet connection:
 
