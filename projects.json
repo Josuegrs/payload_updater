@@ -508,15 +508,5 @@
     "asset_pattern": "Spotless\\.elf",
     "category": "Media & Entertainment",
     "description": "Native Spotify app integration for jailbroken PS5 consoles"
-  },
-  {
-    "id": "ps5-pkg-folderizer",
-    "name": "PKG Folderizer",
-    "base": "https://github.com/desstannsoftware/ps5-pkg-folderizer",
-    "repo": "desstannsoftware/ps5-pkg-folderizer",
-    "host": "github",
-    "asset_pattern": "PPSA99180\\.zip",
-    "category": "Utilities & Tools",
-    "description": "PS5 app for converting PS4 and PS5 debug PKGs into ShadowMountPlus folders or images"
   }
 ]

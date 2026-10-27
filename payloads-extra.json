@@ -715,20 +715,6 @@
       "description": "Native Spotify app integration for jailbroken PS5 consoles (pre-release / beta)",
       "checksum": "6ba14304946055f556adc1e495ebc3439bab7b9b66376f59b6c2c33618c6ad16",
       "icon_key": "spotless"
-    },
-    {
-      "id": "ps5-pkg-folderizer",
-      "name": "PKG Folderizer",
-      "filename": "PPSA99180.zip",
-      "url": "https://github.com/desstannsoftware/ps5-pkg-folderizer/releases/download/01.049.000/PPSA99180.zip",
-      "source": "https://github.com/desstannsoftware/ps5-pkg-folderizer/releases",
-      "source_direct": "https://github.com/desstannsoftware/ps5-pkg-folderizer/releases/download/01.049.000/PPSA99180.zip",
-      "version": "01.049.000",
-      "last_update": "2026-10-27",
-      "category": "Utilities & Tools",
-      "description": "PS5 app for converting PS4 and PS5 debug PKGs into ShadowMountPlus folders or images",
-      "checksum": "c8d45a0efddf63343cf9f027f4745a2202f5b76c54fc913944b01c3127f98af6",
-      "icon_key": "ps5-pkg-folderizer"
     }
   ]
 }
