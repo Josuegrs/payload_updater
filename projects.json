@@ -448,5 +448,15 @@
     "asset_pattern": "TabShifter\\.elf",
     "category": "Utilities & Tools",
     "description": "Move apps between Games and Media tabs and hide unwanted offline PSN tiles"
+  },
+  {
+    "id": "ps4mount",
+    "name": "PS4Mount",
+    "base": "https://github.com/gasb07/ps4mount",
+    "repo": "gasb07/ps4mount",
+    "host": "github",
+    "asset_pattern": "ps4mount\\.elf",
+    "category": "Utilities & Tools",
+    "description": "Mount PS4 PKG games from USB drives on jailbroken PS5 consoles"
   }
 ]

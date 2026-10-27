@@ -5,15 +5,15 @@
     {
       "id": "ps5upload",
       "name": "ps5upload",
-      "filename": "ps5upload-8.3.0.elf",
-      "url": "https://github.com/phantomptr/ps5upload/releases/download/v8.3.0/ps5upload-8.3.0.elf",
+      "filename": "ps5upload-8.4.0.elf",
+      "url": "https://github.com/phantomptr/ps5upload/releases/download/v8.4.0/ps5upload-8.4.0.elf",
       "source": "https://github.com/phantomptr/ps5upload/releases",
-      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v8.3.0/ps5upload-8.3.0.elf",
-      "version": "v8.3.0",
-      "last_update": "2026-10-26",
+      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v8.4.0/ps5upload-8.4.0.elf",
+      "version": "v8.4.0",
+      "last_update": "2026-10-27",
       "category": "Networking & Servers",
-      "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
-      "checksum": "9fe5785c63382b2d3c6eb131b14b7027a6c7cf0fcac011ba26cc331051e44a13",
+      "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app) (pre-release / beta)",
+      "checksum": "09c09071b8ac031ef91f9a81911894a04bb5b48aad2b278995b981e772706f38",
       "icon_key": "ps5upload"
     },
     {
@@ -631,6 +631,20 @@
       "description": "Move apps between Games and Media tabs and hide unwanted offline PSN tiles",
       "checksum": "5d2d9c46c2390df05c5a85781b033aa9471584629e8bd69b91608cb3e60f45b4",
       "icon_key": "tabshifter"
+    },
+    {
+      "id": "ps4mount",
+      "name": "PS4Mount",
+      "filename": "ps4mount.elf",
+      "url": "https://github.com/gasb07/ps4mount/releases/download/v0.7.0/ps4mount.elf",
+      "source": "https://github.com/gasb07/ps4mount/releases",
+      "source_direct": "https://github.com/gasb07/ps4mount/releases/download/v0.7.0/ps4mount.elf",
+      "version": "v0.7.0",
+      "last_update": "2026-10-24",
+      "category": "Utilities & Tools",
+      "description": "Mount PS4 PKG games from USB drives on jailbroken PS5 consoles",
+      "checksum": "9a99fdeb2be8ebee823b14636e0aac5721386feabcfe97e27dc6d5b3e4158bb7",
+      "icon_key": "ps4mount"
     }
   ]
 }
