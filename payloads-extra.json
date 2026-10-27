@@ -681,7 +681,8 @@
       "last_update": "2026-10-26",
       "category": "Networking & Servers",
       "description": "Stream PS5 games from a PC SMB share (pre-release / beta)",
-      "checksum": "ad3505cca3c6b409152e8c12024d81582a351aee473d7fecee4d82bc4e1e252c"
+      "checksum": "ad3505cca3c6b409152e8c12024d81582a351aee473d7fecee4d82bc4e1e252c",
+      "icon_key": "blackwiresmb"
     },
     {
       "id": "spotless",
@@ -694,7 +695,8 @@
       "last_update": "2026-10-19",
       "category": "Media & Entertainment",
       "description": "Native Spotify app integration for jailbroken PS5 consoles",
-      "checksum": "6ba14304946055f556adc1e495ebc3439bab7b9b66376f59b6c2c33618c6ad16"
+      "checksum": "6ba14304946055f556adc1e495ebc3439bab7b9b66376f59b6c2c33618c6ad16",
+      "icon_key": "spotless"
     },
     {
       "id": "ps5save",
