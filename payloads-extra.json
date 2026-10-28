@@ -591,14 +591,14 @@
       "id": "ps4mount",
       "name": "PS4Mount",
       "filename": "ps4mount.elf",
-      "url": "https://github.com/gasb07/ps4mount/releases/download/v0.7.0/ps4mount.elf",
+      "url": "https://github.com/gasb07/ps4mount/releases/download/v0.7.1/ps4mount.elf",
       "source": "https://github.com/gasb07/ps4mount/releases",
-      "source_direct": "https://github.com/gasb07/ps4mount/releases/download/v0.7.0/ps4mount.elf",
-      "version": "v0.7.0",
-      "last_update": "2026-10-24",
+      "source_direct": "https://github.com/gasb07/ps4mount/releases/download/v0.7.1/ps4mount.elf",
+      "version": "v0.7.1",
+      "last_update": "2026-10-28",
       "category": "Utilities & Tools",
       "description": "Mount PS4 PKG games from USB drives on jailbroken PS5 consoles",
-      "checksum": "9a99fdeb2be8ebee823b14636e0aac5721386feabcfe97e27dc6d5b3e4158bb7",
+      "checksum": "ea931ffc7b8da22b9ff36795388caaae28a926d9d44ecbb259e4c6e40aa72a27",
       "icon_key": "ps4mount"
     },
     {
@@ -714,15 +714,15 @@
     {
       "id": "ps5-patchdl",
       "name": "PatchDL",
-      "filename": "patchdl_0.3.10-diag.elf",
-      "url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.10-diag/patchdl_0.3.10-diag.elf",
+      "filename": "patchdl_0.3.11.elf",
+      "url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.11/patchdl_0.3.11.elf",
       "source": "https://github.com/knutwurst/ps5-patchdl/releases",
-      "source_direct": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.10-diag/patchdl_0.3.10-diag.elf",
-      "version": "v0.3.10-diag",
+      "source_direct": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.11/patchdl_0.3.11.elf",
+      "version": "v0.3.11",
       "last_update": "2026-10-28",
       "category": "Utilities & Tools",
-      "description": "Downloads and installs official updates for PS5 and PS4 games through a web interface (pre-release / beta)",
-      "checksum": "1b59fbb72dc18714492f2ea6d57e0205cf55a047f3f461762ccfb09e17afef49"
+      "description": "Downloads and installs official updates for PS5 and PS4 games through a web interface",
+      "checksum": "c008acd9fd7560a91c895e83a1042a1f5f9a689f910dcd7e57c3739dc378da92"
     },
     {
       "id": "drivehop",
