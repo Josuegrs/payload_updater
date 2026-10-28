@@ -381,19 +381,6 @@
       "icon_key": "etahen"
     },
     {
-      "id": "orbit-store-ps5",
-      "name": "Orbit Store",
-      "filename": "orbit_store.elf",
-      "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.7.0/orbit_store.elf",
-      "source": "https://github.com/saawant12/orbit-store-ps5/releases",
-      "source_direct": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.7.0/orbit_store.elf",
-      "version": "v1.7.0",
-      "last_update": "2026-10-26",
-      "category": "Utilities & Tools",
-      "description": "Orbit Store",
-      "checksum": "ca46295969f4711096c036af5cad9925e96b24fcefc5211ed07dbe768f6f809b"
-    },
-    {
       "id": "neoenabler",
       "name": "NeoEnabler",
       "filename": "neo-manager.elf",
@@ -643,6 +630,19 @@
       "icon_key": "orbit-play-ps5"
     },
     {
+      "id": "orbit-store-ps5",
+      "name": "Orbit Store",
+      "filename": "orbit_store.elf",
+      "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.7.0/orbit_store.elf",
+      "source": "https://github.com/saawant12/orbit-store-ps5/releases",
+      "source_direct": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.7.0/orbit_store.elf",
+      "version": "v1.7.0",
+      "last_update": "2026-10-26",
+      "category": "Utilities & Tools",
+      "description": "A PS5 download manager with a browser interface and native TV app",
+      "checksum": "ca46295969f4711096c036af5cad9925e96b24fcefc5211ed07dbe768f6f809b"
+    },
+    {
       "id": "ps5diag",
       "name": "PS5Diag",
       "filename": "ps5diag.elf",
@@ -737,6 +737,19 @@
       "checksum": "2a42054fd9725e1d9595ff4add95abc30e5b49446fcdcb96c06775a376a841c4",
       "id": "pldmgr",
       "icon_key": "pldmgr"
+    },
+    {
+      "id": "drivehop",
+      "name": "DriveHop",
+      "filename": "DriveHop-Installer-v0.7.0.elf",
+      "url": "https://github.com/oso7735/DriveHop/releases/download/v0.7.0/DriveHop-Installer-v0.7.0.elf",
+      "source": "https://github.com/oso7735/DriveHop/releases",
+      "source_direct": "https://github.com/oso7735/DriveHop/releases/download/v0.7.0/DriveHop-Installer-v0.7.0.elf",
+      "version": "v0.7.0",
+      "last_update": "2026-10-28",
+      "category": "Utilities & Tools",
+      "description": "A dual-pane storage manager for copying and moving games between PS5 drives",
+      "checksum": "46452b861b376cedab62e43644950536781122a6884a911da0c99ebab835ee0e"
     }
   ]
 }

@@ -270,16 +270,6 @@
     "description": "AIO HEN payload"
   },
   {
-    "id": "orbit-store-ps5",
-    "name": "Orbit Store",
-    "base": "https://github.com/saawant12/orbit-store-ps5",
-    "repo": "saawant12/orbit-store-ps5",
-    "host": "github",
-    "asset_pattern": ".*\\.elf",
-    "category": "Utilities & Tools",
-    "description": "Orbit Store"
-  },
-  {
     "id": "neoenabler",
     "name": "NeoEnabler",
     "base": "https://github.com/gasb07/NeoEnabler",
@@ -460,6 +450,17 @@
     "description": "PS5 helper for Orbit Play Remote Play on Mac, Windows, and Linux"
   },
   {
+    "id": "orbit-store-ps5",
+    "name": "Orbit Store",
+    "base": "https://github.com/saawant12/orbit-store-ps5",
+    "repo": "saawant12/orbit-store-ps5",
+    "host": "github",
+    "asset_pattern": "orbit_store\\.elf",
+    "category": "Utilities & Tools",
+    "description": "A PS5 download manager with a browser interface and native TV app",
+    "icon": false
+  },
+  {
     "id": "ps5diag",
     "name": "PS5Diag",
     "base": "https://github.com/tojala1998/PS5Diag",
@@ -518,6 +519,17 @@
     "asset_pattern": "patchdl_.*\\.elf",
     "category": "Utilities & Tools",
     "description": "Downloads and installs official updates for PS5 and PS4 games through a web interface",
+    "icon": false
+  },
+  {
+    "id": "drivehop",
+    "name": "DriveHop",
+    "base": "https://github.com/oso7735/DriveHop",
+    "repo": "oso7735/DriveHop",
+    "host": "github",
+    "asset_pattern": "DriveHop-Installer-v.*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "A dual-pane storage manager for copying and moving games between PS5 drives",
     "icon": false
   }
 ]

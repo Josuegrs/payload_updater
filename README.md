@@ -33,6 +33,7 @@ The workflow can be started manually. It updates configured projects from their 
 - [ItsBlurf / BFpilot](https://github.com/ItsBlurf/BFpilot) - **BFpilot**
 - [XXD3V3L0P3RXX / BlackwireSMB](https://github.com/XXD3V3L0P3RXX/BlackwireSMB) - **Blackwire SMB**
 - [notmaj0r / CheatRunner](https://github.com/notmaj0r/CheatRunner) - **CheatRunner**
+- [oso7735 / DriveHop](https://github.com/oso7735/DriveHop) - **DriveHop**
 - [ps5-payload-dev / elfldr](https://github.com/ps5-payload-dev/elfldr) - **elfldr**
 - [etaHEN / etaHEN](https://github.com/etaHEN/etaHEN) - **etaHEN**
 - [ps5-payload-dev / ftpsrv](https://github.com/ps5-payload-dev/ftpsrv) - **ftpsrv**
