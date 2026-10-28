@@ -508,15 +508,15 @@
     {
       "id": "hyperhen",
       "name": "HyperHEN",
-      "filename": "HyperHEN-v0.9.2.elf",
-      "url": "https://github.com/Michele-M-Media/HYPERHEN/releases/download/HYPERHEN_V0_9_2/HyperHEN-v0.9.2.elf",
+      "filename": "HyperHEN-v0.9.3.elf",
+      "url": "https://github.com/Michele-M-Media/HYPERHEN/releases/download/HYPERHEN_V0_9_3/HyperHEN-v0.9.3.elf",
       "source": "https://github.com/Michele-M-Media/HYPERHEN/releases",
-      "source_direct": "https://github.com/Michele-M-Media/HYPERHEN/releases/download/HYPERHEN_V0_9_2/HyperHEN-v0.9.2.elf",
-      "version": "HYPERHEN_V0_9_2",
-      "last_update": "2026-10-14",
+      "source_direct": "https://github.com/Michele-M-Media/HYPERHEN/releases/download/HYPERHEN_V0_9_3/HyperHEN-v0.9.3.elf",
+      "version": "HYPERHEN_V0_9_3",
+      "last_update": "2026-10-28",
       "category": "System & Jailbreak",
       "description": "An all-in-one HEN and Toolbox for PlayStation 5",
-      "checksum": "c35b8f6dbe4355be7e55891e6b326d82f3d6aae8483f6cf0e27d372b0aea97ae",
+      "checksum": "c78c4a16db85610c7d8753c798dbcb9b5d0bb8dfcdc8fb54d8925344bc708f73",
       "icon_key": "hyperhen"
     },
     {
