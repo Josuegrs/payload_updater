@@ -173,15 +173,15 @@
     {
       "id": "zftpd",
       "name": "zftpd",
-      "filename": "zftpd-ps5-v1.6.0.elf",
-      "url": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps5-v1.6.0.elf",
+      "filename": "zftpd-ps5-v1.7.0.elf",
+      "url": "https://github.com/seregonwar/zftpd/releases/download/v1.7.0/zftpd-ps5-v1.7.0.elf",
       "source": "https://github.com/seregonwar/zftpd/releases",
-      "source_direct": "https://github.com/seregonwar/zftpd/releases/download/v1.6.0/zftpd-ps5-v1.6.0.elf",
-      "version": "v1.6.0",
-      "last_update": "2026-09-30",
+      "source_direct": "https://github.com/seregonwar/zftpd/releases/download/v1.7.0/zftpd-ps5-v1.7.0.elf",
+      "version": "v1.7.0",
+      "last_update": "2026-10-28",
       "category": "Networking & Servers",
       "description": "Zero-copy FTP/HTTP Server",
-      "checksum": "39ed57bef579282418f822da2e58ea5d56acfa5aa4cd38816744b1f610bfa14d",
+      "checksum": "533ef2ea5f56af392419b6ce6d05112da79428c2fef252a1a2bcf388be617484",
       "icon_key": "zftpd"
     },
     {
