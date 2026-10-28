@@ -476,7 +476,7 @@
     "base": "https://github.com/XXD3V3L0P3RXX/BlackwireSMB",
     "repo": "XXD3V3L0P3RXX/BlackwireSMB",
     "host": "github",
-    "asset_pattern": "Blackwire-Beta\\.elf",
+    "asset_pattern": "Blackwire\\.elf",
     "category": "Networking & Servers",
     "description": "Stream PS5 games from a PC SMB share"
   },
