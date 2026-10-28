@@ -658,15 +658,15 @@
     {
       "id": "blackwiresmb",
       "name": "Blackwire SMB",
-      "filename": "Blackwire-Beta.elf",
-      "url": "https://github.com/XXD3V3L0P3RXX/BlackwireSMB/releases/download/v0.3.0-beta.2/Blackwire-Beta.elf",
+      "filename": "Blackwire.elf",
+      "url": "https://github.com/XXD3V3L0P3RXX/BlackwireSMB/releases/download/v0.3.0-beta.3/Blackwire.elf",
       "source": "https://github.com/XXD3V3L0P3RXX/BlackwireSMB/releases",
-      "source_direct": "https://github.com/XXD3V3L0P3RXX/BlackwireSMB/releases/download/v0.3.0-beta.2/Blackwire-Beta.elf",
-      "version": "v0.3.0-beta.2",
-      "last_update": "2026-10-26",
+      "source_direct": "https://github.com/XXD3V3L0P3RXX/BlackwireSMB/releases/download/v0.3.0-beta.3/Blackwire.elf",
+      "version": "v0.3.0-beta.3",
+      "last_update": "2026-10-28",
       "category": "Networking & Servers",
       "description": "Stream PS5 games from a PC SMB share (pre-release / beta)",
-      "checksum": "ad3505cca3c6b409152e8c12024d81582a351aee473d7fecee4d82bc4e1e252c",
+      "checksum": "8cebe80fa2510b581df5fa2602ce42bacdccc61cae82a21b3e699954248352a7",
       "icon_key": "blackwiresmb"
     },
     {
