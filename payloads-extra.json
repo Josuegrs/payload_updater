@@ -736,6 +736,19 @@
       "category": "Utilities & Tools",
       "description": "A dual-pane storage manager for copying and moving games between PS5 drives",
       "checksum": "46452b861b376cedab62e43644950536781122a6884a911da0c99ebab835ee0e"
+    },
+    {
+      "id": "blackbox",
+      "name": "BlackBox",
+      "filename": "blackbox.elf",
+      "url": "https://github.com/D3ATHLY/blackbox/releases/download/1.12.5/blackbox.elf",
+      "source": "https://github.com/D3ATHLY/blackbox/releases",
+      "source_direct": "https://github.com/D3ATHLY/blackbox/releases/download/1.12.5/blackbox.elf",
+      "version": "1.12.5",
+      "last_update": "2026-10-23",
+      "category": "Utilities & Tools",
+      "description": "PS5 homebrew storefront and download manager",
+      "checksum": "c99c154b0b141e9a845f3029f7e905644958104ff3ed93911c38a458344f3e3f"
     }
   ]
 }

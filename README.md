@@ -1,6 +1,6 @@
 # PS5 Payload Catalog
 
-Public payload catalog for **PS5 Payload Manager**. It includes 53 projects, their download links, and their icons.
+Public payload catalog for **PS5 Payload Manager**. It includes 54 projects, their download links, and their icons.
 
 ## Disclaimer
 
@@ -26,6 +26,7 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 ## Projects
 
 - [BestPig / BackPork](https://github.com/BestPig/BackPork) - **BackPork**
+- [D3ATHLY / blackbox](https://github.com/D3ATHLY/blackbox) - **BlackBox**
 - [ItsBlurf / BFpilot](https://github.com/ItsBlurf/BFpilot) - **BFpilot**
 - [XXD3V3L0P3RXX / BlackwireSMB](https://github.com/XXD3V3L0P3RXX/BlackwireSMB) - **Blackwire SMB**
 - [notmaj0r / CheatRunner](https://github.com/notmaj0r/CheatRunner) - **CheatRunner**
