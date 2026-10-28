@@ -446,7 +446,7 @@
       "version": "v0.1.1-beta",
       "last_update": "2026-10-10",
       "category": "Utilities & Tools",
-      "description": "Galería para ver y descargar capturas y videos desde el navegador. (pre-release / beta)",
+      "description": "Browse and download screenshots and videos from a web browser. (pre-release / beta)",
       "checksum": "eb2c690d3360d75f324cb2f4e9de4860a715a4ab95c4e9998a8c977741304736",
       "icon_key": "prosperogallery"
     },
@@ -460,7 +460,7 @@
       "version": "v0.2.1",
       "last_update": "2026-10-19",
       "category": "Utilities & Tools",
-      "description": "Control de luces LED y secuencias de pitidos de la consola.",
+      "description": "Control the console's LED lights and beeping sequences.",
       "checksum": "823d0f602b010dd137104f8ccfb08334688b48a8299782c8346dc1ce00620786",
       "icon_key": "ps5-signal"
     },
@@ -474,7 +474,7 @@
       "version": "v0.7.1",
       "last_update": "2026-10-06",
       "category": "Utilities & Tools",
-      "description": "Acceso remoto a los servicios de la consola mediante Tailscale.",
+      "description": "Remote access to console services through Tailscale.",
       "checksum": "af320493c8e2fc3443b8f42496ac11aa3db77b112e95777706d835eccd304cb9",
       "icon_key": "ps5-tailscale"
     },
@@ -488,7 +488,7 @@
       "version": "v0.7.39",
       "last_update": "2026-10-25",
       "category": "Utilities & Tools",
-      "description": "Biblioteca con interfaz web y acceso desde la pantalla de inicio.",
+      "description": "A library with a web interface and home screen access.",
       "checksum": "d3e5b913833941cf36392e3ad056aca788edda093bce9be0b60be105d549e5ad",
       "icon_key": "ps5-library"
     },

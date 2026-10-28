@@ -317,7 +317,7 @@
     "host": "github",
     "asset_pattern": "prospero-gallery\\.elf",
     "category": "Utilities & Tools",
-    "description": "Galería para ver y descargar capturas y videos desde el navegador."
+    "description": "Browse and download screenshots and videos from a web browser."
   },
   {
     "id": "ps5-signal",
@@ -327,7 +327,7 @@
     "host": "github",
     "asset_pattern": "ps5-signal\\.elf",
     "category": "Utilities & Tools",
-    "description": "Control de luces LED y secuencias de pitidos de la consola."
+    "description": "Control the console's LED lights and beeping sequences."
   },
   {
     "id": "ps5-tailscale",
@@ -337,7 +337,7 @@
     "host": "github",
     "asset_pattern": "tailscale-.*\\.elf",
     "category": "Utilities & Tools",
-    "description": "Acceso remoto a los servicios de la consola mediante Tailscale."
+    "description": "Remote access to console services through Tailscale."
   },
   {
     "id": "ps5-library",
@@ -347,7 +347,7 @@
     "host": "github",
     "asset_pattern": "ps5-library\\.elf",
     "category": "Utilities & Tools",
-    "description": "Biblioteca con interfaz web y acceso desde la pantalla de inicio."
+    "description": "A library with a web interface and home screen access."
   },
   {
     "id": "hyperhen",
