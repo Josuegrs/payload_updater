@@ -1,6 +1,6 @@
 # PS5 Payload Catalog
 
-Public payload catalog for **PS5 Payload Manager**. It includes 52 projects, their download links, and their icons.
+Public payload catalog for **PS5 Payload Manager**. It includes 53 projects, their download links, and their icons.
 
 ## Disclaimer
 
@@ -52,6 +52,7 @@ The workflow can be started manually. It updates configured projects from their 
 - [saawant12 / orbit-play-ps5](https://github.com/saawant12/orbit-play-ps5) - **Orbit Play**
 - [saawant12 / orbit-store-ps5](https://github.com/saawant12/orbit-store-ps5) - **Orbit Store**
 - [itsPLK / ps5-pkg-manager](https://github.com/itsPLK/ps5-pkg-manager) - **PKG-Manager**
+- [knutwurst / ps5-patchdl](https://github.com/knutwurst/ps5-patchdl) - **PatchDL**
 - [ghost1372 / PlayTime](https://github.com/ghost1372/PlayTime) - **PlayTime**
 - [itsPLK / pldmgr](https://github.com/itsPLK/pldmgr) - **pldmgr**
 - [AmineWallah / ProsperoGallery](https://github.com/AmineWallah/ProsperoGallery) - **ProsperoGallery**
