@@ -714,15 +714,15 @@
     {
       "id": "ps5-patchdl",
       "name": "PatchDL",
-      "filename": "patchdl_0.3.10.elf",
-      "url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.10/patchdl_0.3.10.elf",
+      "filename": "patchdl_0.3.10-diag.elf",
+      "url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.10-diag/patchdl_0.3.10-diag.elf",
       "source": "https://github.com/knutwurst/ps5-patchdl/releases",
-      "source_direct": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.10/patchdl_0.3.10.elf",
-      "version": "v0.3.10",
+      "source_direct": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.10-diag/patchdl_0.3.10-diag.elf",
+      "version": "v0.3.10-diag",
       "last_update": "2026-10-28",
       "category": "Utilities & Tools",
-      "description": "Downloads and installs official updates for PS5 and PS4 games through a web interface",
-      "checksum": "4903a63406a7cad5ba47380ff43fb957133d71da6ff883ffa29c9fd55fda08b2"
+      "description": "Downloads and installs official updates for PS5 and PS4 games through a web interface (pre-release / beta)",
+      "checksum": "1b59fbb72dc18714492f2ea6d57e0205cf55a047f3f461762ccfb09e17afef49"
     },
     {
       "name": "pldmgr",
