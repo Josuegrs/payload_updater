@@ -60,6 +60,7 @@ def update_readme(items):
     before, marker, _ = content.partition('## Projects\n')
     if not marker:
         raise ValueError('README.md has no Projects section')
+    before = re.sub(r'(?ms)^## Updating\s*\n.*?(?=^## |\Z)', '', before).rstrip()
     rows = []
     for item in items:
         source = item.get('source', '')
@@ -74,7 +75,7 @@ def update_readme(items):
         name = item.get('name') or item.get('id')
         rows.append((name.casefold(), f'- [{repo.replace("/", " / ")}]({repo_url}) - **{name}**'))
     rows.sort(key=lambda row: (row[0], row[1].casefold()))
-    path.write_text(before + '## Projects\n\n' + '\n'.join(row for _, row in rows) + '\n', encoding='utf-8')
+    path.write_text(before + '\n\n## Projects\n\n' + '\n'.join(row for _, row in rows) + '\n', encoding='utf-8')
 
 
 def sync(projects, items, icons, fetch):

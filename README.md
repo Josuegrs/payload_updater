@@ -23,10 +23,6 @@ This catalog links to third-party projects. I do not create or maintain these pr
 
 https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.json
 
-## Updating
-
-The workflow can be started manually. It updates configured projects from their latest releases and adds projects present in the official catalog when their source repository is not already included. Duplicate repositories are skipped.
-
 ## Projects
 
 - [BestPig / BackPork](https://github.com/BestPig/BackPork) - **BackPork**
