@@ -736,20 +736,6 @@
       "category": "Utilities & Tools",
       "description": "A dual-pane storage manager for copying and moving games between PS5 drives",
       "checksum": "46452b861b376cedab62e43644950536781122a6884a911da0c99ebab835ee0e"
-    },
-    {
-      "name": "pldmgr",
-      "filename": "pldmgr_v0.6.3.elf",
-      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.6.3.elf",
-      "source": "https://github.com/itsPLK/pldmgr/releases",
-      "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.3/pldmgr_v0.6.3.elf",
-      "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
-      "last_update": "2026-10-19",
-      "version": "v0.6.3",
-      "category": "Utilities & Tools",
-      "checksum": "2a42054fd9725e1d9595ff4add95abc30e5b49446fcdcb96c06775a376a841c4",
-      "id": "pldmgr",
-      "icon_key": "pldmgr"
     }
   ]
 }

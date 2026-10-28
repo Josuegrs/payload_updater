@@ -55,7 +55,6 @@ The workflow can be started manually. It updates configured projects from their 
 - [knutwurst / ps5-patchdl](https://github.com/knutwurst/ps5-patchdl) - **PatchDL**
 - [itsPLK / ps5-pkg-manager](https://github.com/itsPLK/ps5-pkg-manager) - **PKG-Manager**
 - [ghost1372 / PlayTime](https://github.com/ghost1372/PlayTime) - **PlayTime**
-- [itsPLK / pldmgr](https://github.com/itsPLK/pldmgr) - **pldmgr**
 - [AmineWallah / ProsperoGallery](https://github.com/AmineWallah/ProsperoGallery) - **ProsperoGallery**
 - [notmaj0r / ProsperoMgr](https://github.com/notmaj0r/ProsperoMgr) - **ProsperoMgr**
 - [illusionyy / ps-patch-system](https://github.com/illusionyy/ps-patch-system) - **ps-patch-system**

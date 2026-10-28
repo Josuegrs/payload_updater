@@ -8,6 +8,8 @@ from urllib.parse import urljoin, urlsplit
 ROOT = Path(__file__).resolve().parent
 OFFICIAL = 'https://itsplk.github.io/ps5-payloads-mirror/payloads_v2.json'
 DISABLED = {'playtime', 'ps5-dualsense-deadzone-1360'}
+EXCLUDED_OFFICIAL_SOURCES = {'github.com/itsplk/pldmgr'}
+EXCLUDED_OFFICIAL_IDS = {'pldmgr'}
 
 def icons_url(icons):
     content = json.dumps(icons, sort_keys=True, ensure_ascii=False).encode('utf-8')
@@ -32,11 +34,15 @@ def add_missing_payloads(projects, items, official):
     added = []
     for source_item in official.get('payloads', []):
         source = source_item.get('source')
-        if not source or source_key(source) in known_sources:
+        if not source:
+            continue
+        source_id = source_key(source)
+        if source_id in known_sources:
             continue
         name = source_item.get('name', '').strip()
         payload_id = re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
-        if not payload_id or payload_id in known_ids:
+        if (not payload_id or payload_id in known_ids or source_id in EXCLUDED_OFFICIAL_SOURCES
+                or payload_id in EXCLUDED_OFFICIAL_IDS):
             continue
         item = dict(source_item)
         item['id'] = payload_id
