@@ -51,8 +51,8 @@ The workflow can be started manually. It updates configured projects from their 
 - [aydencharles / onionHEN](https://github.com/aydencharles/onionHEN) - **onionHEN**
 - [saawant12 / orbit-play-ps5](https://github.com/saawant12/orbit-play-ps5) - **Orbit Play**
 - [saawant12 / orbit-store-ps5](https://github.com/saawant12/orbit-store-ps5) - **Orbit Store**
-- [itsPLK / ps5-pkg-manager](https://github.com/itsPLK/ps5-pkg-manager) - **PKG-Manager**
 - [knutwurst / ps5-patchdl](https://github.com/knutwurst/ps5-patchdl) - **PatchDL**
+- [itsPLK / ps5-pkg-manager](https://github.com/itsPLK/ps5-pkg-manager) - **PKG-Manager**
 - [ghost1372 / PlayTime](https://github.com/ghost1372/PlayTime) - **PlayTime**
 - [itsPLK / pldmgr](https://github.com/itsPLK/pldmgr) - **pldmgr**
 - [AmineWallah / ProsperoGallery](https://github.com/AmineWallah/ProsperoGallery) - **ProsperoGallery**
