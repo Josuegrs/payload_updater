@@ -78,7 +78,3 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 - [ps5-payload-dev / websrv](https://github.com/ps5-payload-dev/websrv) - **websrv**
 - [ghost1372 / WelcomeHubActivator](https://github.com/ghost1372/WelcomeHubActivator) - **WelcomeHubActivator**
 - [seregonwar / zftpd](https://github.com/seregonwar/zftpd) - **zftpd**
-
-## Related Projects
-
-- [D3ATHLY / blackbox](https://github.com/D3ATHLY/blackbox) - **BlackBox** (PS5 homebrew storefront and download manager; its release instructions say not to load its embedded ELF through Payload Manager.)
