@@ -48,14 +48,14 @@
       "id": "shadowmountplus",
       "name": "ShadowMountPlus",
       "filename": "shadowmountplus.elf",
-      "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta10/shadowmountplus.elf",
+      "url": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta11/shadowmountplus.elf",
       "source": "https://github.com/drakmor/ShadowMountPlus/releases",
-      "source_direct": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta10/shadowmountplus.elf",
-      "version": "1.7beta10",
-      "last_update": "2026-10-28",
+      "source_direct": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta11/shadowmountplus.elf",
+      "version": "1.7beta11",
+      "last_update": "2026-10-29",
       "category": "Utilities & Tools",
       "description": "A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles.",
-      "checksum": "8c6798232ae2a8fbcd209ab97fc4f8d4d47cf23b7eecfaa6349c0bfeb8e4a3d3",
+      "checksum": "08c843018750bef013fe3a4de5f80c5c9738c6c2dafa2406e6b6e68d7585f3da",
       "icon_key": "shadowmountplus"
     },
     {
@@ -640,7 +640,7 @@
       "last_update": "2026-10-29",
       "category": "Utilities & Tools",
       "description": "A PS5 download manager with a browser interface and native TV app",
-      "checksum": "1ebf3a573c6008135ce8452efc38276f162cb7d542a536cc942a8ec688e7ed62"
+      "checksum": "c5c601dd349b52c650ee4147fc89d9e2ab9a7d1df35e6e6039eee1175194e832"
     },
     {
       "id": "ps5diag",
