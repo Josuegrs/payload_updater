@@ -89,7 +89,8 @@ def build(fetch=get_json, hash_asset=asset_hash, continue_on_error=False):
                 url=asset['browser_download_url'], source=base + '/releases', source_direct=asset['browser_download_url'],
                 version=release['tag_name'], last_update=release['published_at'][:10],
                 category=project['category'], description=project['description'] +
-                (' (pre-release / beta)' if release.get('prerelease') else ''), checksum=hash_asset(asset)))
+                (' (pre-release / beta)' if release.get('prerelease') else ''), checksum=hash_asset(asset),
+                **({'details_url': project['details_url']} if project.get('details_url') else {})))
         except Exception as error:
             if not continue_on_error:
                 raise

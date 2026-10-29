@@ -5,6 +5,7 @@
     "base": "https://codeberg.org/elmonomalva0/Any-Pad-ps5",
     "repo": "elmonomalva0/Any-Pad-ps5",
     "host": "forgejo",
+    "details_url": "https://codeberg.org/elmonomalva0/Any-Pad-ps5/raw/branch/main/README.md",
     "asset_pattern": "AnyPad-PS5-.*\\.elf",
     "category": "Utilities & Tools",
     "description": "A PS5 payload for configuring and using compatible game controllers"
