@@ -14,7 +14,7 @@
       "category": "Utilities & Tools",
       "description": "A PS5 payload for configuring and using compatible game controllers",
       "checksum": "08ebdc013810d2a54f879ac3033a969c62280dccfc2a1ea4a04b161b891db816",
-      "details_url": "https://codeberg.org/elmonomalva0/Any-Pad-ps5/src/commit/44b8312c9abaf4aaff03d0c74c62a4da010c0108/README.md"
+      "details_url": "https://raw.githubusercontent.com/Josuegrs/payload_updater/refs/heads/main/README.md"
     },
     {
       "id": "ps5upload",
