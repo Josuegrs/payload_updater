@@ -531,15 +531,5 @@
     "category": "Utilities & Tools",
     "description": "A dual-pane storage manager for copying and moving games between PS5 drives",
     "icon": false
-  },
-  {
-    "id": "blackbox",
-    "name": "BlackBox",
-    "base": "https://github.com/D3ATHLY/blackbox",
-    "repo": "D3ATHLY/blackbox",
-    "host": "github",
-    "asset_pattern": "blackbox\\.elf",
-    "category": "Utilities & Tools",
-    "description": "PS5 homebrew storefront and download manager"
   }
 ]
