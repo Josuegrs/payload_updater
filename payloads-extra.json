@@ -19,15 +19,15 @@
     {
       "id": "ps5-web-file-manager",
       "name": "ps5-web-file-manager",
-      "filename": "web-file-mgr-v1.12.elf",
-      "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.12/web-file-mgr-v1.12.elf",
+      "filename": "web-file-mgr-v1.13-rc1.elf",
+      "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.13-rc1/web-file-mgr-v1.13-rc1.elf",
       "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
-      "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.12/web-file-mgr-v1.12.elf",
-      "version": "v1.12",
-      "last_update": "2026-10-22",
+      "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.13-rc1/web-file-mgr-v1.13-rc1.elf",
+      "version": "v1.13-rc1",
+      "last_update": "2026-10-29",
       "category": "Utilities & Tools",
       "description": "A file manager for PS5 with a web UI",
-      "checksum": "f3461eb967da7afbbf0420d3294fbc8f999cc2ad53a756bed413aa80c7cfa67a",
+      "checksum": "8c9456a10ddde61dd0247b9171e71a285b955096ca7eb8e4ae3bdbe94f38f605",
       "icon_key": "ps5-web-file-manager"
     },
     {
