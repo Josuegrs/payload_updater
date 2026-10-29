@@ -1,5 +1,15 @@
 [
   {
+    "id": "any-pad-ps5",
+    "name": "AnyPad PS5",
+    "base": "https://codeberg.org/elmonomalva0/Any-Pad-ps5",
+    "repo": "elmonomalva0/Any-Pad-ps5",
+    "host": "forgejo",
+    "asset_pattern": "AnyPad-PS5-.*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "A PS5 payload for configuring and using compatible game controllers"
+  },
+  {
     "id": "ps5upload",
     "name": "ps5upload",
     "base": "https://github.com/phantomptr/ps5upload",

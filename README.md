@@ -25,6 +25,7 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 
 ## Projects
 
+- [elmonomalva0 / Any-Pad-ps5](https://codeberg.org/elmonomalva0/Any-Pad-ps5) - **AnyPad PS5**
 - [BestPig / BackPork](https://github.com/BestPig/BackPork) - **BackPork**
 - [ItsBlurf / BFpilot](https://github.com/ItsBlurf/BFpilot) - **BFpilot**
 - [XXD3V3L0P3RXX / BlackwireSMB](https://github.com/XXD3V3L0P3RXX/BlackwireSMB) - **Blackwire SMB**

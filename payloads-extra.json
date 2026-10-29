@@ -3,6 +3,19 @@
   "icons_url": "icons.json?v=cba3b847ea7e40f4",
   "payloads": [
     {
+      "id": "any-pad-ps5",
+      "name": "AnyPad PS5",
+      "filename": "AnyPad-PS5-0.9.5-beta.elf",
+      "url": "https://codeberg.org/elmonomalva0/Any-Pad-ps5/releases/download/v0.9.5-beta/AnyPad-PS5-0.9.5-beta.elf",
+      "source": "https://codeberg.org/elmonomalva0/Any-Pad-ps5/releases",
+      "source_direct": "https://codeberg.org/elmonomalva0/Any-Pad-ps5/releases/download/v0.9.5-beta/AnyPad-PS5-0.9.5-beta.elf",
+      "version": "v0.9.5-beta",
+      "last_update": "2026-10-14",
+      "category": "Utilities & Tools",
+      "description": "A PS5 payload for configuring and using compatible game controllers",
+      "checksum": "08ebdc013810d2a54f879ac3033a969c62280dccfc2a1ea4a04b161b891db816"
+    },
+    {
       "id": "ps5upload",
       "name": "ps5upload",
       "filename": "ps5upload-9.2.1.elf",
