@@ -19,15 +19,15 @@
     {
       "id": "ps5upload",
       "name": "ps5upload",
-      "filename": "ps5upload-9.4.0.elf",
-      "url": "https://github.com/phantomptr/ps5upload/releases/download/v9.4.0/ps5upload-9.4.0.elf",
+      "filename": "ps5upload-9.4.1.elf",
+      "url": "https://github.com/phantomptr/ps5upload/releases/download/v9.4.1/ps5upload-9.4.1.elf",
       "source": "https://github.com/phantomptr/ps5upload/releases",
-      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v9.4.0/ps5upload-9.4.0.elf",
-      "version": "v9.4.0",
+      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v9.4.1/ps5upload-9.4.1.elf",
+      "version": "v9.4.1",
       "last_update": "2026-10-30",
       "category": "Networking & Servers",
       "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
-      "checksum": "620a771e34c83c2b84e537307d25e47cead2270c1024db44cf2c340c9c7bb083",
+      "checksum": "b276e08c0b82dd29abbe7bbe7b23ed21adafc5a89737f5deba4787ed2ceccad8",
       "icon_key": "ps5upload"
     },
     {
@@ -741,15 +741,15 @@
     {
       "id": "drivehop",
       "name": "DriveHop",
-      "filename": "DriveHop-Installer-v0.7.0.elf",
-      "url": "https://github.com/oso7735/DriveHop/releases/download/v0.7.0/DriveHop-Installer-v0.7.0.elf",
+      "filename": "DriveHop-Installer-v0.8.0.elf",
+      "url": "https://github.com/oso7735/DriveHop/releases/download/v0.8.0/DriveHop-Installer-v0.8.0.elf",
       "source": "https://github.com/oso7735/DriveHop/releases",
-      "source_direct": "https://github.com/oso7735/DriveHop/releases/download/v0.7.0/DriveHop-Installer-v0.7.0.elf",
-      "version": "v0.7.0",
-      "last_update": "2026-10-28",
+      "source_direct": "https://github.com/oso7735/DriveHop/releases/download/v0.8.0/DriveHop-Installer-v0.8.0.elf",
+      "version": "v0.8.0",
+      "last_update": "2026-10-30",
       "category": "Utilities & Tools",
       "description": "A dual-pane storage manager for copying and moving games between PS5 drives",
-      "checksum": "46452b861b376cedab62e43644950536781122a6884a911da0c99ebab835ee0e"
+      "checksum": "76500eefde4a2b26c7f22839fbb943543db2713fe4b17ef44ddcbc3b9c6db8b1"
     }
   ]
 }
