@@ -383,8 +383,8 @@
   {
     "id": "ps5-game-compressor",
     "name": "PS5 Game Compressor",
-    "base": "https://github.com/juma-sayeh/PS5-Game-Compressor",
-    "repo": "juma-sayeh/PS5-Game-Compressor",
+    "base": "https://github.com/gcoding97/PS5-Game-Compressor",
+    "repo": "gcoding97/PS5-Game-Compressor",
     "host": "github",
     "asset_pattern": "game-compressor\\.elf",
     "category": "Utilities & Tools",

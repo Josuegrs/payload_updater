@@ -538,14 +538,14 @@
       "id": "ps5-game-compressor",
       "name": "PS5 Game Compressor",
       "filename": "game-compressor.elf",
-      "url": "https://github.com/juma-sayeh/PS5-Game-Compressor/releases/download/v1.0.4/game-compressor.elf",
-      "source": "https://github.com/juma-sayeh/PS5-Game-Compressor/releases",
-      "source_direct": "https://github.com/juma-sayeh/PS5-Game-Compressor/releases/download/v1.0.4/game-compressor.elf",
-      "version": "v1.0.4",
-      "last_update": "2026-08-21",
+      "url": "https://github.com/gcoding97/PS5-Game-Compressor/releases/download/v1.1.1/game-compressor.elf",
+      "source": "https://github.com/gcoding97/PS5-Game-Compressor/releases",
+      "source_direct": "https://github.com/gcoding97/PS5-Game-Compressor/releases/download/v1.1.1/game-compressor.elf",
+      "version": "v1.1.1",
+      "last_update": "2026-10-02",
       "category": "Utilities & Tools",
       "description": "Standalone PS5 payload for compressing, unpacking, validating, and repairing ShadowMountPlus-mounted games",
-      "checksum": "e55e90aaade13b6e0d4316c1597ef90a21b67a06475c3e25de054224bc1e941b"
+      "checksum": "5fec05b8a3cb89bafbc97970d5d68d9f31e6fcde873b5523243890e50836592b"
     },
     {
       "id": "liveshell",

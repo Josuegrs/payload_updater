@@ -57,7 +57,7 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 - [illusionyy / ps-patch-system](https://github.com/illusionyy/ps-patch-system) - **ps-patch-system**
 - [gasb07 / ps4mount](https://github.com/gasb07/ps4mount) - **PS4Mount**
 - [fvaha / ps5-dualsense-deadzone-13.60](https://github.com/fvaha/ps5-dualsense-deadzone-13.60) - **PS5 DualSense Deadzone (13.60)**
-- [juma-sayeh / PS5-Game-Compressor](https://github.com/juma-sayeh/PS5-Game-Compressor) - **PS5 Game Compressor**
+- [gcoding97 / PS5-Game-Compressor](https://github.com/gcoding97/PS5-Game-Compressor) - **PS5 Game Compressor**
 - [deox1111 / ps5-library](https://github.com/deox1111/ps5-library) - **PS5 Library**
 - [xvvulcanvx / PS5-TabShifter](https://github.com/xvvulcanvx/PS5-TabShifter) - **PS5 TabShifter**
 - [holdmysocks / ps5-tailscale](https://github.com/holdmysocks/ps5-tailscale) - **PS5 Tailscale**
