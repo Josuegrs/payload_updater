@@ -728,15 +728,15 @@
     {
       "id": "ps5-patchdl",
       "name": "PatchDL",
-      "filename": "patchdl_0.3.11.elf",
-      "url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.11/patchdl_0.3.11.elf",
+      "filename": "patchdl_0.3.12.elf",
+      "url": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.12/patchdl_0.3.12.elf",
       "source": "https://github.com/knutwurst/ps5-patchdl/releases",
-      "source_direct": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.11/patchdl_0.3.11.elf",
-      "version": "v0.3.11",
-      "last_update": "2026-10-28",
+      "source_direct": "https://github.com/knutwurst/ps5-patchdl/releases/download/v0.3.12/patchdl_0.3.12.elf",
+      "version": "v0.3.12",
+      "last_update": "2026-11-02",
       "category": "Utilities & Tools",
       "description": "Downloads and installs official updates for PS5 and PS4 games through a web interface",
-      "checksum": "c008acd9fd7560a91c895e83a1042a1f5f9a689f910dcd7e57c3739dc378da92"
+      "checksum": "a8aeb6039825188561b7346bb6f0c9244f72d7be1412dc7dd6c2bea0dd3f396a"
     },
     {
       "id": "drivehop",
