@@ -17,6 +17,19 @@
       "details_url": "https://raw.githubusercontent.com/Josuegrs/payload_updater/refs/heads/main/README.md"
     },
     {
+      "id": "alembic",
+      "name": "Alembic",
+      "filename": "alembic-v0.5.0.elf",
+      "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.5.0/alembic-v0.5.0.elf",
+      "source": "https://github.com/fthdgn-gh/Alembic/releases",
+      "source_direct": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.5.0/alembic-v0.5.0.elf",
+      "version": "v0.5.0",
+      "last_update": "2026-11-03",
+      "category": "Utilities & Tools",
+      "description": "A PS5 payload and web interface for converting game packages, dumps, and filesystem images",
+      "checksum": "f45e71599dbe46cab4d5c2bcb28716bcd387831965cfd399c1eafabb0bb7b8ae"
+    },
+    {
       "id": "ps5upload",
       "name": "ps5upload",
       "filename": "ps5upload-11.0.0.elf",

@@ -11,6 +11,16 @@
     "description": "A PS5 payload for configuring and using compatible game controllers"
   },
   {
+    "id": "alembic",
+    "name": "Alembic",
+    "base": "https://github.com/fthdgn-gh/Alembic",
+    "repo": "fthdgn-gh/Alembic",
+    "host": "github",
+    "asset_pattern": "alembic-.*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "A PS5 payload and web interface for converting game packages, dumps, and filesystem images"
+  },
+  {
     "id": "ps5upload",
     "name": "ps5upload",
     "base": "https://github.com/phantomptr/ps5upload",
