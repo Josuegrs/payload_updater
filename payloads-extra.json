@@ -645,14 +645,14 @@
       "id": "hush",
       "name": "Hush",
       "filename": "hush.elf",
-      "url": "https://github.com/disco-trooper/hush/releases/download/v1.1.0/hush.elf",
+      "url": "https://github.com/disco-trooper/hush/releases/download/v1.1.1/hush.elf",
       "source": "https://github.com/disco-trooper/hush/releases",
-      "source_direct": "https://github.com/disco-trooper/hush/releases/download/v1.1.0/hush.elf",
-      "version": "v1.1.0",
+      "source_direct": "https://github.com/disco-trooper/hush/releases/download/v1.1.1/hush.elf",
+      "version": "v1.1.1",
       "last_update": "2026-11-03",
       "category": "Utilities & Tools",
       "description": "Turns off the PS5's continuous recent-gameplay recording",
-      "checksum": "7ce9356eaf28d3fa2e3cfcd6b93300e5321c385d087409912ae3b29e6855a8d3",
+      "checksum": "e58045cc39bb2301a4966e3c043eb75cabc45a0e5e39bb09b0b4151f57767f78",
       "icon_key": "hush"
     },
     {
