@@ -19,15 +19,15 @@
     {
       "id": "alembic",
       "name": "Alembic",
-      "filename": "alembic-v0.5.0.elf",
-      "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.5.0/alembic-v0.5.0.elf",
+      "filename": "alembic-v0.5.1.elf",
+      "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.5.1/alembic-v0.5.1.elf",
       "source": "https://github.com/fthdgn-gh/Alembic/releases",
-      "source_direct": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.5.0/alembic-v0.5.0.elf",
-      "version": "v0.5.0",
+      "source_direct": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.5.1/alembic-v0.5.1.elf",
+      "version": "v0.5.1",
       "last_update": "2026-11-03",
       "category": "Utilities & Tools",
       "description": "A PS5 payload and web interface for converting game packages, dumps, and filesystem images",
-      "checksum": "f45e71599dbe46cab4d5c2bcb28716bcd387831965cfd399c1eafabb0bb7b8ae"
+      "checksum": "99e79f1f006cf3f73e71ec8e6401f5410081c6647324ba7e9c8ea7712970df31"
     },
     {
       "id": "remoteplay-unlock",
