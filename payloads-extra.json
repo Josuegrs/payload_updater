@@ -30,6 +30,19 @@
       "checksum": "f45e71599dbe46cab4d5c2bcb28716bcd387831965cfd399c1eafabb0bb7b8ae"
     },
     {
+      "id": "remoteplay-unlock",
+      "name": "Remote Play Unlock",
+      "filename": "remoteplay_unlock.elf",
+      "url": "https://github.com/earthonion/remoteplay_unlock/releases/download/latest/remoteplay_unlock.elf",
+      "source": "https://github.com/earthonion/remoteplay_unlock/releases",
+      "source_direct": "https://github.com/earthonion/remoteplay_unlock/releases/download/latest/remoteplay_unlock.elf",
+      "version": "latest",
+      "last_update": "2026-11-01",
+      "category": "System & Jailbreak",
+      "description": "A PS5 payload that removes Remote Play restrictions on supported firmware",
+      "checksum": "4646fd6c6430439855b4dde5c940d1df40ba540c95c0b00f67cc6a884ffa0cf3"
+    },
+    {
       "id": "ps5upload",
       "name": "ps5upload",
       "filename": "ps5upload-11.0.0.elf",

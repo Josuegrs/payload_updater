@@ -21,6 +21,16 @@
     "description": "A PS5 payload and web interface for converting game packages, dumps, and filesystem images"
   },
   {
+    "id": "remoteplay-unlock",
+    "name": "Remote Play Unlock",
+    "base": "https://github.com/earthonion/remoteplay_unlock",
+    "repo": "earthonion/remoteplay_unlock",
+    "host": "github",
+    "asset_pattern": "remoteplay_unlock\\.elf",
+    "category": "System & Jailbreak",
+    "description": "A PS5 payload that removes Remote Play restrictions on supported firmware"
+  },
+  {
     "id": "ps5upload",
     "name": "ps5upload",
     "base": "https://github.com/phantomptr/ps5upload",

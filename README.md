@@ -1,6 +1,6 @@
 # PS5 Payload Catalog
 
-Public payload catalog for **PS5 Payload Manager**. It includes 54 projects, their download links, and their icons.
+Public payload catalog for **PS5 Payload Manager**. It includes 55 projects, their download links, and their icons.
 
 ## Disclaimer
 
@@ -73,6 +73,7 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 - [tojala1998 / PS5Diag](https://github.com/tojala1998/PS5Diag) - **PS5Diag**
 - [heni0xyz / PS5Save](https://github.com/heni0xyz/PS5Save) - **PS5Save**
 - [phantomptr / ps5upload](https://github.com/phantomptr/ps5upload) - **ps5upload**
+- [earthonion / remoteplay_unlock](https://github.com/earthonion/remoteplay_unlock) - **Remote Play Unlock**
 - [drakmor / ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus) - **ShadowMountPlus**
 - [ps5-payload-dev / shsrv](https://github.com/ps5-payload-dev/shsrv) - **shsrv**
 - [abhi245y / spotless](https://github.com/abhi245y/spotless) - **Spotless**
