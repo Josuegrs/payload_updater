@@ -767,15 +767,15 @@
     {
       "id": "drivehop",
       "name": "DriveHop",
-      "filename": "DriveHop-Installer-v0.8.0.elf",
-      "url": "https://github.com/oso7735/DriveHop/releases/download/v0.8.0/DriveHop-Installer-v0.8.0.elf",
+      "filename": "DriveHop-Installer-v0.9.0.elf",
+      "url": "https://github.com/oso7735/DriveHop/releases/download/v0.9.0/DriveHop-Installer-v0.9.0.elf",
       "source": "https://github.com/oso7735/DriveHop/releases",
-      "source_direct": "https://github.com/oso7735/DriveHop/releases/download/v0.8.0/DriveHop-Installer-v0.8.0.elf",
-      "version": "v0.8.0",
-      "last_update": "2026-10-30",
+      "source_direct": "https://github.com/oso7735/DriveHop/releases/download/v0.9.0/DriveHop-Installer-v0.9.0.elf",
+      "version": "v0.9.0",
+      "last_update": "2026-11-04",
       "category": "Utilities & Tools",
       "description": "A dual-pane storage manager for copying and moving games between PS5 drives",
-      "checksum": "76500eefde4a2b26c7f22839fbb943543db2713fe4b17ef44ddcbc3b9c6db8b1"
+      "checksum": "4f08877dca99f154580ac04e3fe316983512413469c7296f3f101fa91d0c1871"
     }
   ]
 }
