@@ -74,14 +74,14 @@
       "id": "garlic-savemgr",
       "name": "garlic-savemgr",
       "filename": "garlic-savemgr.elf",
-      "url": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.15-beta7/garlic-savemgr.elf",
+      "url": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.15-beta8/garlic-savemgr.elf",
       "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases",
-      "source_direct": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.15-beta7/garlic-savemgr.elf",
-      "version": "v1.15-beta7",
+      "source_direct": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.15-beta8/garlic-savemgr.elf",
+      "version": "v1.15-beta8",
       "last_update": "2026-11-05",
       "category": "Utilities & Tools",
       "description": "PS5 save decrypt/encrypt/browse with embedded web UI. (pre-release / beta)",
-      "checksum": "b38bcbeeb918fea0a70ce11a4f4ca7ca6bd589931bb8b3abb30d99c9ae3adda9",
+      "checksum": "b1efd3066156a0ac4c5f47504a4d1e4b79f3e3f523c3c6e296a3acc53b98364f",
       "icon_key": "garlic-savemgr"
     },
     {
