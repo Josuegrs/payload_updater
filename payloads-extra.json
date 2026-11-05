@@ -37,10 +37,10 @@
       "source": "https://github.com/earthonion/remoteplay_unlock/releases",
       "source_direct": "https://github.com/earthonion/remoteplay_unlock/releases/download/latest/remoteplay_unlock.elf",
       "version": "latest",
-      "last_update": "2026-11-01",
+      "last_update": "2026-11-05",
       "category": "System & Jailbreak",
       "description": "A PS5 payload that removes Remote Play restrictions on supported firmware (pre-release / beta)",
-      "checksum": "4646fd6c6430439855b4dde5c940d1df40ba540c95c0b00f67cc6a884ffa0cf3"
+      "checksum": "43775b12f2cfe4e6b501e66b8eeea8db42901834f929e0a3d4e469b763c7d4a7"
     },
     {
       "id": "ps5upload",
