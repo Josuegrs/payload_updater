@@ -790,7 +790,7 @@
       "version": "v2.2.5-beta",
       "last_update": "2026-11-05",
       "category": "Utilities & Tools",
-      "description": "A companion payload that enables third-party USB and Bluetooth controllers on jailbroken PS5 consoles (pre-release / beta)",
+      "description": "A companion payload that enables third-party USB and Bluetooth controllers on jailbroken PS5 consoles",
       "checksum": "9252b95bdf019f83628e454d03c15709fd2a59abf1f218e3d02f141eae1e9a19",
       "icon_key": "ghostcontrol"
     }
