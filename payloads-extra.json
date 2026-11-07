@@ -1,6 +1,6 @@
 {
   "name": "PS5 Payload Catalog",
-  "icons_url": "icons.json?v=f41d9995b4fdff12",
+  "icons_url": "icons.json?v=e1bdf58a5d2595e2",
   "payloads": [
     {
       "id": "any-pad-ps5",
@@ -14,7 +14,8 @@
       "category": "Utilities & Tools",
       "description": "A PS5 payload for configuring and using compatible game controllers",
       "checksum": "08ebdc013810d2a54f879ac3033a969c62280dccfc2a1ea4a04b161b891db816",
-      "details_url": "https://raw.githubusercontent.com/Josuegrs/payload_updater/refs/heads/main/README.md"
+      "details_url": "https://raw.githubusercontent.com/Josuegrs/payload_updater/refs/heads/main/README.md",
+      "icon_key": "any-pad-ps5"
     },
     {
       "id": "alembic",
