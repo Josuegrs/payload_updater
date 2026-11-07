@@ -1,6 +1,6 @@
 {
   "name": "PS5 Payload Catalog",
-  "icons_url": "icons.json?v=e1bdf58a5d2595e2",
+  "icons_url": "icons.json?v=2db2db25b9962b33",
   "payloads": [
     {
       "id": "any-pad-ps5",
@@ -764,7 +764,8 @@
       "last_update": "2026-11-02",
       "category": "Utilities & Tools",
       "description": "Downloads and installs official updates for PS5 and PS4 games through a web interface",
-      "checksum": "a8aeb6039825188561b7346bb6f0c9244f72d7be1412dc7dd6c2bea0dd3f396a"
+      "checksum": "a8aeb6039825188561b7346bb6f0c9244f72d7be1412dc7dd6c2bea0dd3f396a",
+      "icon_key": "ps5-patchdl"
     },
     {
       "id": "drivehop",
