@@ -1,6 +1,6 @@
 {
   "name": "PS5 Payload Catalog",
-  "icons_url": "icons.json?v=cba3b847ea7e40f4",
+  "icons_url": "icons.json?v=3c5c1eeed2e1fee6",
   "payloads": [
     {
       "id": "any-pad-ps5",
@@ -788,7 +788,8 @@
       "last_update": "2026-11-05",
       "category": "Utilities & Tools",
       "description": "A companion payload that enables third-party USB and Bluetooth controllers on jailbroken PS5 consoles (pre-release / beta)",
-      "checksum": "9252b95bdf019f83628e454d03c15709fd2a59abf1f218e3d02f141eae1e9a19"
+      "checksum": "9252b95bdf019f83628e454d03c15709fd2a59abf1f218e3d02f141eae1e9a19",
+      "icon_key": "ghostcontrol"
     }
   ]
-}
+}\n
