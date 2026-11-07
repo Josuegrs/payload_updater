@@ -25,6 +25,8 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 
 ## Projects
 
+- [StonedModder / Ghostcontrol-PS5-USB-Controller-Patcher](https://github.com/StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher) - **Ghostcontrol**
+
 - [fthdgn-gh / Alembic](https://github.com/fthdgn-gh/Alembic) - **Alembic**
 - [elmonomalva0 / Any-Pad-ps5](https://codeberg.org/elmonomalva0/Any-Pad-ps5) - **AnyPad PS5**
 - [BestPig / BackPork](https://github.com/BestPig/BackPork) - **BackPork**

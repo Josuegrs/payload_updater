@@ -776,6 +776,19 @@
       "category": "Utilities & Tools",
       "description": "A dual-pane storage manager for copying and moving games between PS5 drives",
       "checksum": "4f08877dca99f154580ac04e3fe316983512413469c7296f3f101fa91d0c1871"
+    },
+    {
+      "id": "ghostcontrol",
+      "name": "Ghostcontrol",
+      "filename": "GhosttoothAPI.elf",
+      "url": "https://github.com/StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher/releases/download/v2.2.5-beta/GhosttoothAPI.elf",
+      "source": "https://github.com/StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher/releases",
+      "source_direct": "https://github.com/StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher/releases/download/v2.2.5-beta/GhosttoothAPI.elf",
+      "version": "v2.2.5-beta",
+      "last_update": "2026-11-05",
+      "category": "Utilities & Tools",
+      "description": "A companion payload that enables third-party USB and Bluetooth controllers on jailbroken PS5 consoles (pre-release / beta)",
+      "checksum": "9252b95bdf019f83628e454d03c15709fd2a59abf1f218e3d02f141eae1e9a19"
     }
   ]
 }
