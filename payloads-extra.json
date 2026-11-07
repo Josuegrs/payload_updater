@@ -1,6 +1,6 @@
 {
   "name": "PS5 Payload Catalog",
-  "icons_url": "icons.json?v=2db2db25b9962b33",
+  "icons_url": "icons.json?v=2aabafb88d641f33",
   "payloads": [
     {
       "id": "any-pad-ps5",
@@ -573,7 +573,8 @@
       "last_update": "2026-10-02",
       "category": "Utilities & Tools",
       "description": "Standalone PS5 payload for compressing, unpacking, validating, and repairing ShadowMountPlus-mounted games",
-      "checksum": "5fec05b8a3cb89bafbc97970d5d68d9f31e6fcde873b5523243890e50836592b"
+      "checksum": "5fec05b8a3cb89bafbc97970d5d68d9f31e6fcde873b5523243890e50836592b",
+      "icon_key": "ps5-game-compressor"
     },
     {
       "id": "liveshell",
