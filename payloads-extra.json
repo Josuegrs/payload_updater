@@ -1,6 +1,6 @@
 {
   "name": "PS5 Payload Catalog",
-  "icons_url": "icons.json?v=e9eb0adbee805e65",
+  "icons_url": "icons.json?v=f41d9995b4fdff12",
   "payloads": [
     {
       "id": "any-pad-ps5",
@@ -27,7 +27,8 @@
       "last_update": "2026-11-06",
       "category": "Utilities & Tools",
       "description": "A PS5 payload and web interface for converting game packages, dumps, and filesystem images",
-      "checksum": "ebd5e74f5be94363c4fbf429c57776226f9ed688ed40127bd34c460930bd5c25"
+      "checksum": "ebd5e74f5be94363c4fbf429c57776226f9ed688ed40127bd34c460930bd5c25",
+      "icon_key": "alembic"
     },
     {
       "id": "remoteplay-unlock",
