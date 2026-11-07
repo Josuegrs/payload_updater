@@ -1,6 +1,6 @@
 {
   "name": "PS5 Payload Catalog",
-  "icons_url": "icons.json?v=416873416687df56",
+  "icons_url": "icons.json?v=48efc387817fb425",
   "payloads": [
     {
       "id": "any-pad-ps5",
@@ -47,15 +47,15 @@
     {
       "id": "ps5upload",
       "name": "ps5upload",
-      "filename": "ps5upload-11.2.8.elf",
-      "url": "https://github.com/phantomptr/ps5upload/releases/download/v11.2.8/ps5upload-11.2.8.elf",
+      "filename": "ps5upload-11.2.9.elf",
+      "url": "https://github.com/phantomptr/ps5upload/releases/download/v11.2.9/ps5upload-11.2.9.elf",
       "source": "https://github.com/phantomptr/ps5upload/releases",
-      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v11.2.8/ps5upload-11.2.8.elf",
-      "version": "v11.2.8",
-      "last_update": "2026-11-06",
+      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v11.2.9/ps5upload-11.2.9.elf",
+      "version": "v11.2.9",
+      "last_update": "2026-11-07",
       "category": "Networking & Servers",
       "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app) (pre-release / beta)",
-      "checksum": "a76ae6f70ee8cb0b536ee39f60855cee627a01f33271699020ee35989a9a8f37",
+      "checksum": "fa0d4c9f8385c2744357b389526e8a923256c73b46362fcaecfee2c530f1e3b8",
       "icon_key": "ps5upload"
     },
     {
