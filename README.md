@@ -25,8 +25,6 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 
 ## Projects
 
-- [StonedModder / Ghostcontrol-PS5-USB-Controller-Patcher](https://github.com/StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher) - **Ghostcontrol**
-
 - [fthdgn-gh / Alembic](https://github.com/fthdgn-gh/Alembic) - **Alembic**
 - [elmonomalva0 / Any-Pad-ps5](https://codeberg.org/elmonomalva0/Any-Pad-ps5) - **AnyPad PS5**
 - [BestPig / BackPork](https://github.com/BestPig/BackPork) - **BackPork**
@@ -39,6 +37,7 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 - [ps5-payload-dev / ftpsrv](https://github.com/ps5-payload-dev/ftpsrv) - **ftpsrv**
 - [drakmor / ftpsrv](https://github.com/drakmor/ftpsrv) - **ftpsrv-drakmor**
 - [earthonion / garlic-savemgr](https://git.etawen.dev/earthonion/garlic-savemgr) - **garlic-savemgr**
+- [StonedModder / Ghostcontrol-PS5-USB-Controller-Patcher](https://github.com/StonedModder/Ghostcontrol-PS5-USB-Controller-Patcher) - **Ghostcontrol**
 - [X-F1REBALL-X / HearBridge-PS5](https://github.com/X-F1REBALL-X/HearBridge-PS5) - **HearBridge-PS5**
 - [disco-trooper / hush](https://github.com/disco-trooper/hush) - **Hush**
 - [Michele-M-Media / HYPERHEN](https://github.com/Michele-M-Media/HYPERHEN) - **HyperHEN**
