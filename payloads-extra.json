@@ -306,7 +306,7 @@
       "version": "v0.22",
       "last_update": "2026-11-08",
       "category": "Networking & Servers",
-      "description": "A simple FTP server that accepts connections on port 2121 (pre-release / beta)",
+      "description": "A simple FTP server that accepts connections on port 2121",
       "checksum": "41148c2c1cad1ea9e7cfde03e389fa918e3338e896d06167346de09adbdc8757",
       "icon_key": "ftpsrv"
     },
