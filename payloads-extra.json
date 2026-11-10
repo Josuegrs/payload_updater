@@ -770,15 +770,15 @@
     {
       "id": "drivehop",
       "name": "DriveHop",
-      "filename": "DriveHop-Installer-v0.9.0.elf",
-      "url": "https://github.com/oso7735/DriveHop/releases/download/v0.9.0/DriveHop-Installer-v0.9.0.elf",
+      "filename": "DriveHop-Installer-v0.9.1.elf",
+      "url": "https://github.com/oso7735/DriveHop/releases/download/v0.9.1/DriveHop-Installer-v0.9.1.elf",
       "source": "https://github.com/oso7735/DriveHop/releases",
-      "source_direct": "https://github.com/oso7735/DriveHop/releases/download/v0.9.0/DriveHop-Installer-v0.9.0.elf",
-      "version": "v0.9.0",
-      "last_update": "2026-11-04",
+      "source_direct": "https://github.com/oso7735/DriveHop/releases/download/v0.9.1/DriveHop-Installer-v0.9.1.elf",
+      "version": "v0.9.1",
+      "last_update": "2026-11-10",
       "category": "Utilities & Tools",
       "description": "A dual-pane storage manager for copying and moving games between PS5 drives",
-      "checksum": "4f08877dca99f154580ac04e3fe316983512413469c7296f3f101fa91d0c1871"
+      "checksum": "ac7f2605c8d1606c9221228cae0a615e1f64a94f3ed26f207df9c86123bd49ed"
     },
     {
       "id": "ghostcontrol",
