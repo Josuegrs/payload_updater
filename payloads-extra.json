@@ -3,6 +3,19 @@
   "icons_url": "icons.json?v=48efc387817fb425",
   "payloads": [
     {
+      "id": "fps-monitor-panel",
+      "name": "FPS Monitor",
+      "filename": "fps-monitor-1.0.0.elf",
+      "url": "https://github.com/rawalakshay/fps-monitor-panel/releases/download/v1.0.0/fps-monitor-1.0.0.elf",
+      "source": "https://github.com/rawalakshay/fps-monitor-panel/releases",
+      "source_direct": "https://github.com/rawalakshay/fps-monitor-panel/releases/download/v1.0.0/fps-monitor-1.0.0.elf",
+      "version": "v1.0.0",
+      "last_update": "2026-11-10",
+      "category": "Utilities & Tools",
+      "description": "An in-game performance overlay for jailbroken PS5 consoles, showing frame rate, frame times, temperatures and memory",
+      "checksum": "f8b0e972926ffff408e0ebe0fb9e61195c3fdf6a8bd1370fc635cdf5aa3d757f"
+    },
+    {
       "id": "any-pad-ps5",
       "name": "AnyPad PS5",
       "filename": "AnyPad-PS5-0.9.5-beta.elf",

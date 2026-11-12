@@ -34,6 +34,7 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 - [oso7735 / DriveHop](https://github.com/oso7735/DriveHop) - **DriveHop**
 - [ps5-payload-dev / elfldr](https://github.com/ps5-payload-dev/elfldr) - **elfldr**
 - [etaHEN / etaHEN](https://github.com/etaHEN/etaHEN) - **etaHEN**
+- [rawalakshay / fps-monitor-panel](https://github.com/rawalakshay/fps-monitor-panel) - **FPS Monitor**
 - [ps5-payload-dev / ftpsrv](https://github.com/ps5-payload-dev/ftpsrv) - **ftpsrv**
 - [drakmor / ftpsrv](https://github.com/drakmor/ftpsrv) - **ftpsrv-drakmor**
 - [earthonion / garlic-savemgr](https://git.etawen.dev/earthonion/garlic-savemgr) - **garlic-savemgr**

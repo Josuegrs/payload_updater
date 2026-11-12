@@ -1,5 +1,15 @@
 [
   {
+    "id": "fps-monitor-panel",
+    "name": "FPS Monitor",
+    "base": "https://github.com/rawalakshay/fps-monitor-panel",
+    "repo": "rawalakshay/fps-monitor-panel",
+    "host": "github",
+    "asset_pattern": "fps-monitor.*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "An in-game performance overlay for jailbroken PS5 consoles, showing frame rate, frame times, temperatures and memory"
+  },
+  {
     "id": "any-pad-ps5",
     "name": "AnyPad PS5",
     "base": "https://codeberg.org/elmonomalva0/Any-Pad-ps5",
