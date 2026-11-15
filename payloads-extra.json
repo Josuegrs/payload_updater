@@ -33,15 +33,15 @@
     {
       "id": "alembic",
       "name": "Alembic",
-      "filename": "alembic-v0.6.5.elf",
-      "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.6.5/alembic-v0.6.5.elf",
+      "filename": "alembic-v0.7.0.elf",
+      "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.0/alembic-v0.7.0.elf",
       "source": "https://github.com/fthdgn-gh/Alembic/releases",
-      "source_direct": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.6.5/alembic-v0.6.5.elf",
-      "version": "v0.6.5",
+      "source_direct": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.0/alembic-v0.7.0.elf",
+      "version": "v0.7.0",
       "last_update": "2026-11-15",
       "category": "Utilities & Tools",
       "description": "A PS5 payload and web interface for converting game packages, dumps, and filesystem images",
-      "checksum": "1ac2a2a6c561cf8579baeac6ca179e12476cd75fa79411cd4e50fb2f86e9b3b0",
+      "checksum": "82c5ae495166e018ead5042adb7820e7d37bf40b2c18c5ee0af909a5f042f6da",
       "icon_key": "alembic"
     },
     {
@@ -60,15 +60,15 @@
     {
       "id": "ps5upload",
       "name": "ps5upload",
-      "filename": "ps5upload-12.4.22.elf",
-      "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.22/ps5upload-12.4.22.elf",
+      "filename": "ps5upload-12.4.23.elf",
+      "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.23/ps5upload-12.4.23.elf",
       "source": "https://github.com/phantomptr/ps5upload/releases",
-      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.22/ps5upload-12.4.22.elf",
-      "version": "v12.4.22",
+      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.23/ps5upload-12.4.23.elf",
+      "version": "v12.4.23",
       "last_update": "2026-11-15",
       "category": "Networking & Servers",
       "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
-      "checksum": "b60d65a9f753233cd1a25f46eb3c3e7de595f251a1b87d8a9deefaf4c2b8cf06",
+      "checksum": "ef1a7e246158ce9dbbeb99bf0057f044c45a6a07b713a12a7575d4345147bba3",
       "icon_key": "ps5upload"
     },
     {
