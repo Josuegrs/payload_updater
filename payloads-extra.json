@@ -480,15 +480,15 @@
     {
       "id": "hearbridge-ps5",
       "name": "HearBridge-PS5",
-      "filename": "HearBridge-1.4.1.elf",
-      "url": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases/download/v1.4.1/HearBridge-1.4.1.elf",
+      "filename": "HearBridge-1.4.2.elf",
+      "url": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases/download/v1.4.2/HearBridge-1.4.2.elf",
       "source": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases",
-      "source_direct": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases/download/v1.4.1/HearBridge-1.4.1.elf",
-      "version": "v1.4.1",
+      "source_direct": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases/download/v1.4.2/HearBridge-1.4.2.elf",
+      "version": "v1.4.2",
       "last_update": "2026-11-15",
       "category": "Utilities & Tools",
       "description": "HearBridge-PS5 (pre-release / beta)",
-      "checksum": "3996f6b10fd4c3fec02802e26ae6c68368f1719c50eddd0205453f232f666053",
+      "checksum": "0b2f0026325f67788e4adaab2c3742abaeb785d4cd166a5b6a5ff35a9535ddec",
       "icon_key": "hearbridge-ps5"
     },
     {
