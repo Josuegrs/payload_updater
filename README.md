@@ -1,6 +1,6 @@
 # PS5 Payload Catalog
 
-Public payload catalog for **PS5 Payload Manager**. It includes 55 projects, their download links, and their icons.
+Public payload catalog for **PS5 Payload Manager**. It includes 56 projects, their download links, and their icons.
 
 ## Disclaimer
 
@@ -43,6 +43,7 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 - [disco-trooper / hush](https://github.com/disco-trooper/hush) - **Hush**
 - [Michele-M-Media / HYPERHEN](https://github.com/Michele-M-Media/HYPERHEN) - **HyperHEN**
 - [ps5-payload-dev / klogsrv](https://github.com/ps5-payload-dev/klogsrv) - **klogsrv**
+- [quer3q / kraken-mount](https://github.com/quer3q/kraken-mount) - **Kraken Mount**
 - [EchoStretch / kstuff-lite](https://github.com/EchoStretch/kstuff-lite) - **kstuff-lite**
 - [itsPLK / PS5-Lapy-JB-Daemon](https://github.com/itsPLK/PS5-Lapy-JB-Daemon) - **Lapy-JB-Daemon**
 - [ZiZc3 / LiveShell](https://github.com/ZiZc3/LiveShell) - **LiveShell**

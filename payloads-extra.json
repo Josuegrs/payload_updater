@@ -1,6 +1,6 @@
 {
   "name": "PS5 Payload Catalog",
-  "icons_url": "icons.json?v=48efc387817fb425",
+  "icons_url": "icons.json?v=bda4f4d6fdc1be24",
   "payloads": [
     {
       "id": "fps-monitor-panel",
@@ -462,6 +462,20 @@
       "description": "ps5-dump-forge",
       "checksum": "858b8ae2954341a3389e4a9f998c6a57d01bc4e4fb8f01a71c41719001c30be7",
       "icon_key": "ps5-dump-forge"
+    },
+    {
+      "id": "kraken-mount",
+      "name": "Kraken Mount",
+      "filename": "kraken-mount.elf",
+      "url": "https://github.com/quer3q/kraken-mount/releases/download/v0.2.1/kraken-mount.elf",
+      "source": "https://github.com/quer3q/kraken-mount/releases",
+      "source_direct": "https://github.com/quer3q/kraken-mount/releases/download/v0.2.1/kraken-mount.elf",
+      "version": "v0.2.1",
+      "last_update": "2026-11-16",
+      "category": "Utilities & Tools",
+      "description": "A PS5 game mounter for debug PKG files and plain, zstd, or LZ4 game folders",
+      "checksum": "3b50bdfffaad5bacdd41ad380cc7ce3dfe419d8efde57b30c0c0e7a338fe2494",
+      "icon_key": "kraken-mount"
     },
     {
       "id": "prosperomgr",

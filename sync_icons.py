@@ -1,9 +1,12 @@
 """Copy icons from matching entries in the official Payload Manager catalog."""
 import hashlib
+import base64
 import json
+import mimetypes
 import re
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit
+from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent
 OFFICIAL = 'https://itsplk.github.io/ps5-payloads-mirror/payloads_v2.json'
@@ -95,6 +98,14 @@ def sync(projects, items, icons, fetch):
         match = by_source.get(source_key(source + '/releases')) if source else by_source.get(source_key(item.get('source', '')))
         if match and match.get('icon_key') in official_icons:
             data = official_icons[match['icon_key']]
+        if project.get('icon_url'):
+            request = Request(project['icon_url'], headers={'User-Agent': 'PS5-Catalog-Updater'})
+            with urlopen(request, timeout=60) as response:
+                image = response.read()
+                content_type = response.headers.get_content_type()
+            if not content_type.startswith('image/'):
+                content_type = mimetypes.guess_type(project['icon_url'])[0] or 'image/png'
+            data = f'data:{content_type};base64,' + base64.b64encode(image).decode('ascii')
         if data:
             result[item['id']] = data
             item['icon_key'] = item['id']

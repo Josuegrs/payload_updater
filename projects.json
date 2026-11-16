@@ -331,6 +331,17 @@
     "description": "ps5-dump-forge"
   },
   {
+    "id": "kraken-mount",
+    "name": "Kraken Mount",
+    "base": "https://github.com/quer3q/kraken-mount",
+    "repo": "quer3q/kraken-mount",
+    "host": "github",
+    "asset_pattern": "kraken-mount\\.elf",
+    "category": "Utilities & Tools",
+    "description": "A PS5 game mounter for debug PKG files and plain, zstd, or LZ4 game folders",
+    "icon_url": "https://raw.githubusercontent.com/quer3q/kraken-mount/main/docs/logo.png"
+  },
+  {
     "id": "prosperomgr",
     "name": "ProsperoMgr",
     "base": "https://github.com/notmaj0r/ProsperoMgr",
