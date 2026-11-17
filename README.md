@@ -1,6 +1,6 @@
 # PS5 Payload Catalog
 
-Public payload catalog for **PS5 Payload Manager**. It includes 56 projects, their download links, and their icons.
+Public payload catalog for **PS5 Payload Manager**. It includes 57 projects, their download links, and their icons.
 
 ## Disclaimer
 
@@ -80,6 +80,7 @@ https://raw.githubusercontent.com/Josuegrs/payload_updater/main/payloads-extra.j
 - [drakmor / ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus) - **ShadowMountPlus**
 - [ps5-payload-dev / shsrv](https://github.com/ps5-payload-dev/shsrv) - **shsrv**
 - [abhi245y / spotless](https://github.com/abhi245y/spotless) - **Spotless**
+- [devchmod / TITAN-CORE](https://github.com/devchmod/TITAN-CORE) - **TITAN CORE**
 - [itsPLK / ps5-webkit-autoloader](https://github.com/itsPLK/ps5-webkit-autoloader) - **WebKit-Autoloader-Installer**
 - [ps5-payload-dev / websrv](https://github.com/ps5-payload-dev/websrv) - **websrv**
 - [ghost1372 / WelcomeHubActivator](https://github.com/ghost1372/WelcomeHubActivator) - **WelcomeHubActivator**

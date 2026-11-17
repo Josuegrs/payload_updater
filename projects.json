@@ -593,5 +593,16 @@
     "asset_pattern": "GhosttoothAPI\\.elf",
     "category": "Utilities & Tools",
     "description": "A companion payload that enables third-party USB and Bluetooth controllers on jailbroken PS5 consoles"
+  },
+  {
+    "id": "titan-core",
+    "name": "TITAN CORE",
+    "base": "https://github.com/devchmod/TITAN-CORE",
+    "repo": "devchmod/TITAN-CORE",
+    "host": "github",
+    "asset_pattern": "TITAN-CORE-v.*\\.elf",
+    "category": "Utilities & Tools",
+    "description": "A PS5 game workspace with native FPKG mounting, USB installation, live diagnostics and a multilingual web interface",
+    "icon_url": "https://raw.githubusercontent.com/devchmod/TITAN-CORE/main/ps5/icon0.png"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "name": "PS5 Payload Catalog",
-  "icons_url": "icons.json?v=bda4f4d6fdc1be24",
+  "icons_url": "icons.json?v=1156e0a313edcc2d",
   "payloads": [
     {
       "id": "fps-monitor-panel",
@@ -820,6 +820,20 @@
       "description": "A companion payload that enables third-party USB and Bluetooth controllers on jailbroken PS5 consoles",
       "checksum": "9252b95bdf019f83628e454d03c15709fd2a59abf1f218e3d02f141eae1e9a19",
       "icon_key": "ghostcontrol"
+    },
+    {
+      "id": "titan-core",
+      "name": "TITAN CORE",
+      "filename": "TITAN-CORE-v1.0.elf",
+      "url": "https://github.com/devchmod/TITAN-CORE/releases/download/v1.0.0/TITAN-CORE-v1.0.elf",
+      "source": "https://github.com/devchmod/TITAN-CORE/releases",
+      "source_direct": "https://github.com/devchmod/TITAN-CORE/releases/download/v1.0.0/TITAN-CORE-v1.0.elf",
+      "version": "v1.0.0",
+      "last_update": "2026-11-16",
+      "category": "Utilities & Tools",
+      "description": "A PS5 game workspace with native FPKG mounting, USB installation, live diagnostics and a multilingual web interface",
+      "checksum": "50f074700fc4f427ae87fb2cb986ad07d633ef01799077953817a6ffded7f91d",
+      "icon_key": "titan-core"
     }
   ]
 }
