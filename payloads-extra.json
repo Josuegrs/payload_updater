@@ -536,15 +536,15 @@
     {
       "id": "ps5-tailscale",
       "name": "PS5 Tailscale",
-      "filename": "tailscale-0.7.3.elf",
-      "url": "https://github.com/holdmysocks/ps5-tailscale/releases/download/v0.7.3/tailscale-0.7.3.elf",
+      "filename": "tailscale-0.7.5.elf",
+      "url": "https://github.com/holdmysocks/ps5-tailscale/releases/download/v0.7.5/tailscale-0.7.5.elf",
       "source": "https://github.com/holdmysocks/ps5-tailscale/releases",
-      "source_direct": "https://github.com/holdmysocks/ps5-tailscale/releases/download/v0.7.3/tailscale-0.7.3.elf",
-      "version": "v0.7.3",
-      "last_update": "2026-11-04",
+      "source_direct": "https://github.com/holdmysocks/ps5-tailscale/releases/download/v0.7.5/tailscale-0.7.5.elf",
+      "version": "v0.7.5",
+      "last_update": "2026-11-19",
       "category": "Utilities & Tools",
       "description": "Remote access to console services through Tailscale.",
-      "checksum": "899c9f76994317171ab62a331a229b260e7c93aab68963502d79c861392e5801",
+      "checksum": "4a3ee8758115d16875eecc8b89443746097f55362e9fef2fae9c6392814efb5e",
       "icon_key": "ps5-tailscale"
     },
     {
