@@ -703,14 +703,14 @@
       "id": "orbit-store-ps5",
       "name": "Orbit Store",
       "filename": "orbit_store.elf",
-      "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.2/orbit_store.elf",
+      "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.5/orbit_store.elf",
       "source": "https://github.com/saawant12/orbit-store-ps5/releases",
-      "source_direct": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.2/orbit_store.elf",
-      "version": "v1.9.2",
-      "last_update": "2026-11-16",
+      "source_direct": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.5/orbit_store.elf",
+      "version": "v1.9.5",
+      "last_update": "2026-11-19",
       "category": "Utilities & Tools",
       "description": "A PS5 download manager with a browser interface and native TV app",
-      "checksum": "5fe4892269ebe940731d0236cd1bbca8d827e7690676f7b7af32fb9c5a775f5b"
+      "checksum": "95da321dcfa054fe355e1d820e50163b3ee4da1410a9a2aa72213d7626b2d3b9"
     },
     {
       "id": "ps5diag",
