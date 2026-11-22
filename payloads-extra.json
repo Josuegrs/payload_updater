@@ -33,15 +33,15 @@
     {
       "id": "alembic",
       "name": "Alembic",
-      "filename": "alembic-v0.7.0.elf",
-      "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.0/alembic-v0.7.0.elf",
+      "filename": "alembic-v0.7.1.elf",
+      "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.1/alembic-v0.7.1.elf",
       "source": "https://github.com/fthdgn-gh/Alembic/releases",
-      "source_direct": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.0/alembic-v0.7.0.elf",
-      "version": "v0.7.0",
-      "last_update": "2026-11-15",
+      "source_direct": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.1/alembic-v0.7.1.elf",
+      "version": "v0.7.1",
+      "last_update": "2026-11-22",
       "category": "Utilities & Tools",
       "description": "A PS5 payload and web interface for converting game packages, dumps, and filesystem images",
-      "checksum": "82c5ae495166e018ead5042adb7820e7d37bf40b2c18c5ee0af909a5f042f6da",
+      "checksum": "15142ec6013cfe96cccdf1f3b7ca3196515285ce3e2d98fda97991e6a5e27dd3",
       "icon_key": "alembic"
     },
     {
