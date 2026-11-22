@@ -60,15 +60,15 @@
     {
       "id": "ps5upload",
       "name": "ps5upload",
-      "filename": "ps5upload-12.6.17.elf",
-      "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.17/ps5upload-12.6.17.elf",
+      "filename": "ps5upload-12.6.18.elf",
+      "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.18/ps5upload-12.6.18.elf",
       "source": "https://github.com/phantomptr/ps5upload/releases",
-      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.17/ps5upload-12.6.17.elf",
-      "version": "v12.6.17",
-      "last_update": "2026-11-20",
+      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.18/ps5upload-12.6.18.elf",
+      "version": "v12.6.18",
+      "last_update": "2026-11-22",
       "category": "Networking & Servers",
-      "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app) (pre-release / beta)",
-      "checksum": "2bf4c7ebee49c06e0517040a68f6e6458826bcaca49f435c6151aeb108c65ee4",
+      "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
+      "checksum": "6a1264fc02d39617c19b8cbe1afa381d6cb002c235e45cceebb310ba512aa4c1",
       "icon_key": "ps5upload"
     },
     {
