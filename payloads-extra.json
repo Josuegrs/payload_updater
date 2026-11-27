@@ -60,15 +60,15 @@
     {
       "id": "ps5upload",
       "name": "ps5upload",
-      "filename": "ps5upload-12.6.40.elf",
-      "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.40/ps5upload-12.6.40.elf",
+      "filename": "ps5upload-12.6.41.elf",
+      "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.41/ps5upload-12.6.41.elf",
       "source": "https://github.com/phantomptr/ps5upload/releases",
-      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.40/ps5upload-12.6.40.elf",
-      "version": "v12.6.40",
+      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.41/ps5upload-12.6.41.elf",
+      "version": "v12.6.41",
       "last_update": "2026-11-27",
       "category": "Networking & Servers",
       "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
-      "checksum": "d43d24fbe3030466168838bbd9040978cb1c235240b9b0ca4037ff04b81f2c0a",
+      "checksum": "fd9d731cd1ccde7b8f9b81c9b9f0a61a7821585bdae68c158eb92a1269804e87",
       "icon_key": "ps5upload"
     },
     {
@@ -228,15 +228,15 @@
     {
       "id": "zftpd",
       "name": "zftpd",
-      "filename": "zftpd-ps5-v1.7.0.elf",
-      "url": "https://github.com/seregonwar/zftpd/releases/download/v1.7.0/zftpd-ps5-v1.7.0.elf",
+      "filename": "zftpd-ps5-v1.7.1.elf",
+      "url": "https://github.com/seregonwar/zftpd/releases/download/v1.7.1/zftpd-ps5-v1.7.1.elf",
       "source": "https://github.com/seregonwar/zftpd/releases",
-      "source_direct": "https://github.com/seregonwar/zftpd/releases/download/v1.7.0/zftpd-ps5-v1.7.0.elf",
-      "version": "v1.7.0",
-      "last_update": "2026-10-28",
+      "source_direct": "https://github.com/seregonwar/zftpd/releases/download/v1.7.1/zftpd-ps5-v1.7.1.elf",
+      "version": "v1.7.1",
+      "last_update": "2026-11-27",
       "category": "Networking & Servers",
       "description": "Zero-copy FTP/HTTP Server",
-      "checksum": "533ef2ea5f56af392419b6ce6d05112da79428c2fef252a1a2bcf388be617484",
+      "checksum": "5a7cf2ff5d73418ea0109468fa7d77fc99356eaa338d58c35198affe60b96ea1",
       "icon_key": "zftpd"
     },
     {
